@@ -1,0 +1,17 @@
+digraph "081796-0001" {
+  top [ style=invis ];
+  top -> 5;
+  0 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">Exile</font></td></tr></table>> ];
+  1 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">is</font></td></tr></table>> ];
+  2 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">the</font></td></tr></table>> ];
+  3 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">best</font></td></tr></table>> ];
+  4 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">!!!</font></td></tr></table>> ];
+  5 -> 6 [ label="H" ];
+  6 -> 7 [ label="S" ];
+  6 -> 1 [ label="F" ];
+  6 -> 0 [ label="A" ];
+  7 -> 4 [ label="U" ];
+  7 -> 2 [ label="F" ];
+  7 -> 3 [ label="C" ];
+}
+

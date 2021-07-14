@@ -1,0 +1,22 @@
+digraph "808017" {
+  top [ style=invis ];
+  top -> 8;
+  0 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">The</font></td></tr></table>> ];
+  1 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">pair</font></td></tr></table>> ];
+  2 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">married</font></td></tr></table>> ];
+  3 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">in</font></td></tr></table>> ];
+  4 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">1969</font></td></tr></table>> ];
+  5 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">.</font></td></tr></table>> ];
+  6 -> 7 [ label="A" ];
+  6 -> 7 [ label="S" ];
+  7 -> 1 [ label="C" ];
+  7 -> 0 [ label="E" ];
+  8 -> 9 [ label="H" ];
+  9 -> 10 [ label="T" ];
+  9 -> 6 [ label="A" ];
+  9 -> 2 [ label="P" ];
+  10 -> 4 [ label="C" ];
+  10 -> 3 [ label="R" ];
+  10 -> 5 [ label="U" ];
+}
+

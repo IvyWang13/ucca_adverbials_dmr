@@ -1,0 +1,32 @@
+digraph "315763-0004" {
+  top [ style=invis ];
+  top -> 13;
+  0 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">They</font></td></tr></table>> ];
+  1 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">have</font></td></tr></table>> ];
+  2 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">been</font></td></tr></table>> ];
+  3 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">extremely</font></td></tr></table>> ];
+  4 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">helpful</font></td></tr></table>> ];
+  5 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">whenever</font></td></tr></table>> ];
+  6 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">I</font></td></tr></table>> ];
+  7 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">have</font></td></tr></table>> ];
+  8 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">asked</font></td></tr></table>> ];
+  9 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">for</font></td></tr></table>> ];
+  10 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">help</font></td></tr></table>> ];
+  11 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">.</font></td></tr></table>> ];
+  12 -> 2 [ label="F" ];
+  12 -> 3 [ label="D" ];
+  12 -> 0 [ label="A" ];
+  12 -> 4 [ label="S" ];
+  12 -> 1 [ label="F" ];
+  13 -> 5 [ label="L" ];
+  13 -> 12 [ label="H" ];
+  13 -> 14 [ label="H" ];
+  14 -> 15 [ label="A" ];
+  14 -> 8 [ label="P" ];
+  14 -> 6 [ label="A" ];
+  14 -> 7 [ label="F" ];
+  15 -> 10 [ label="P" ];
+  15 -> 11 [ label="U" ];
+  15 -> 9 [ label="R" ];
+}
+

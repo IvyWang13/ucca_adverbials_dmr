@@ -1,0 +1,888 @@
+passge_id	node_id	numChildren	edge_tag	edge_id	edge
+36	1.4	2 	E	1.3->1.4	[E The] [C year] 
+36	1.5	1 	E	1.4->1.5	The
+36	1.13	1 	E	1.12->1.13	a
+36	1.14	1 	E	1.12->1.14	bizarre
+36	1.18	1 	E	1.17->1.18	an
+36	1.19	3 	E	1.17->1.19	[C unexplained] [N and] [C [E downright] [C inexplicable] ] 
+36	1.23	1 	E	1.22->1.23	downright
+36	1.26	6 	E	1.17->1.26	[A* phenomenon] [R that] [G surely] [A [E no] [C one] ] [F has] [P forgotten] 
+36	1.30	1 	E	1.29->1.30	no
+36	1.35	1 	D	1.36->1.35	Without
+36	1.40	1 	E	1.38->1.40	those
+36	1.42	4 	E	1.38->1.42	[R that] [H [A* rumors] [P upset] [A civilians] [A [R in] [E the] [C seaports] ] ] [L and] [H [A* rumors] [P deranged] [A [E the] [E public] [C mind] ] [G even] [A [E far] [C inland] ] ] 
+36	1.49	1 	E	1.47->1.49	the
+36	1.55	1 	E	1.54->1.55	the
+36	1.56	1 	E	1.54->1.56	public
+36	1.60	1 	E	1.59->1.60	far
+36	1.68	1 	E	1.67->1.68	professional
+36	1.71	1 	D	1.63->1.71	especially
+36	1.85	1 	E	1.82->1.85	vessels
+36	1.91	1 	E	1.90->1.91	master
+36	1.93	2 	E	1.76->1.93	[R from] [C [C Europe] [N and] [C America] ] 
+36	1.101	1 	E	1.100->1.101	naval
+36	1.103	3 	E	1.100->1.103	[R from] [E every] [C country] 
+36	1.105	1 	E	1.103->1.105	every
+36	1.112	1 	E	1.111->1.112	the
+36	1.113	1 	E	1.111->1.113	various
+36	1.114	1 	E	1.111->1.114	national
+36	1.116	4 	E	1.111->1.116	[R on] [E these] [E two] [C continents] 
+36	1.118	1 	E	1.116->1.118	these
+36	1.119	1 	E	1.116->1.119	two
+36	1.124	1 	D	1.74->1.124	extremely
+36	1.128	1 	E	1.126->1.128	the
+37	1.7	3 	E	1.5->1.7	[E a] [C period] [R of] 
+37	1.8	1 	E	1.7->1.8	a
+37	1.13	1 	E	1.12->1.13	several
+37	1.19	1 	E	1.18->1.19	an
+37	1.20	1 	E	1.18->1.20	enormous
+37	1.27	8 	E	1.18->1.27	[E a] [E long] [E [E spindle] [U -] [C shaped] ] [C object] [U ,] [E [A* object] [T sometimes] [P giving off] [A [E a] [E phosphorescent] [C glow] ] ] [U ,] [E [A* object] [D infinitely] [S [C bigger] [N and] [C faster] ] [A [R than] [E any] [C whale] [U .] ] ] 
+37	1.28	1 	E	1.27->1.28	a
+37	1.29	1 	E	1.27->1.29	long
+37	1.30	3 	E	1.27->1.30	[E spindle] [U -] [C shaped] 
+37	1.31	1 	E	1.30->1.31	spindle
+37	1.36	4 	E	1.27->1.36	[A* object] [T sometimes] [P giving off] [A [E a] [E phosphorescent] [C glow] ] 
+37	1.40	1 	E	1.39->1.40	a
+37	1.41	1 	E	1.39->1.41	phosphorescent
+37	1.44	4 	E	1.27->1.44	[A* object] [D infinitely] [S [C bigger] [N and] [C faster] ] [A [R than] [E any] [C whale] [U .] ] 
+37	1.45	1 	D	1.44->1.45	infinitely
+37	1.52	1 	E	1.50->1.52	any
+38	1.5	1 	E	1.3->1.5	The
+38	1.6	1 	E	1.3->1.6	relevant
+38	1.8	3 	E	1.3->1.8	[R on] [E this] [C apparition] 
+38	1.10	1 	E	1.8->1.10	this
+38	1.13	4 	E	1.3->1.13	[A* data] [R as] [P recorded] [A [R in] [E various] [C logbooks] ] 
+38	1.18	1 	E	1.16->1.18	various
+38	1.22	2 	D	1.2->1.22	[E pretty] [C closely] 
+38	1.23	1 	E	1.22->1.23	pretty
+38	1.29	1 	E	1.28->1.29	the
+38	1.32	3 	E	1.28->1.32	[E the] [C [C object] [N or] [C creature] ] [E [E in] [C question] ] 
+38	1.33	1 	E	1.32->1.33	the
+38	1.38	2 	E	1.32->1.38	[E in] [C question] 
+38	1.39	1 	E	1.38->1.39	in
+38	1.43	1 	E	1.42->1.43	its
+38	1.44	1 	E	1.42->1.44	unprecedented
+38	1.48	1 	E	1.42->1.48	movement
+38	1.51	1 	E	1.50->1.51	its
+38	1.52	1 	E	1.50->1.52	startling
+38	1.54	1 	E	1.50->1.54	locomotive
+38	1.59	1 	E	1.58->1.59	the
+38	1.60	1 	E	1.58->1.60	unique
+38	1.62	7 	E	1.58->1.62	[A* vitality] [R with which] [A it] [G seemed] [F to] [F be] [S gifted] 
+38	1.75	1 	E	1.74->1.75	a
+38	1.81	2 	D	1.78->1.81	in bulk
+38	1.83	1 	E	1.82->1.83	any
+38	1.85	4 	E	1.82->1.85	[A* whale] [T previously] [P classified] [A [R by] [C science] ] 
+38	1.95	1 	E	1.93->1.95	No
+38	1.98	3 	E	1.93->1.98	[C [N neither] [C Cuvier] [N nor] [C Lacépède] ] [U ,] [C [N neither] [C Professor Dumeril] [N nor] [C Professor de Quatrefages] ] 
+38	1.111	1 	D	1.92->1.111	would
+38	1.116	1 	E	1.115->1.116	the
+38	1.123	1 	E	1.122->1.123	such
+38	1.124	1 	E	1.122->1.124	a
+38	1.129	5 	E	1.118->1.129	[A* monster] [G specifically] [U ,] [S unseen] [A [R by] [E their] [E own] [E scientific] [C eyes] [U .] ] 
+38	1.135	1 	E	1.133->1.135	their
+38	1.136	1 	E	1.133->1.136	own
+38	1.137	1 	E	1.133->1.137	scientific
+39	1.4	6 	E	1.3->1.4	[H [P Striking] [A [E an] [C average] [R of] [E [C observations] [E [A* observations] [P taken] [A [R at] [E different] [C times] ] ] ] ] ... [A* you] ] [F -] [H [P rejecting] [A [E those] [E timid] [C estimates] [E [A* estimates] [R that] [P gave] [A [E the] [C object] ] [A [E [E a] [C length] ] [R of] [E 200] [C feet] ] ] ] ... [A* you] ] [U ,] [L and] [H [P ignoring] [A [E those] [E exaggerated] [C views] [E [A* views] [R that] [P saw] [A it] [A [R as] [C [C [E a] [C mile] [E wide] ] [N and] [C [C* mile] [E three] [E long] ] ] ] ] ] ... [A* you] ] 
+39	1.8	1 	E	1.7->1.8	an
+39	1.11	2 	E	1.7->1.11	[C observations] [E [A* observations] [P taken] [A [R at] [E different] [C times] ] ] 
+39	1.13	3 	E	1.11->1.13	[A* observations] [P taken] [A [R at] [E different] [C times] ] 
+39	1.17	1 	E	1.15->1.17	different
+39	1.23	1 	E	1.22->1.23	those
+39	1.24	1 	E	1.22->1.24	timid
+39	1.26	5 	E	1.22->1.26	[A* estimates] [R that] [P gave] [A [E the] [C object] ] [A [E [E a] [C length] ] [R of] [E 200] [C feet] ] 
+39	1.30	1 	E	1.29->1.30	the
+39	1.33	2 	E	1.32->1.33	[E a] [C length] 
+39	1.34	1 	E	1.33->1.34	a
+39	1.38	1 	E	1.32->1.38	200
+39	1.45	1 	E	1.44->1.45	those
+39	1.46	1 	E	1.44->1.46	exaggerated
+39	1.48	5 	E	1.44->1.48	[A* views] [R that] [P saw] [A it] [A [R as] [C [C [E a] [C mile] [E wide] ] [N and] [C [C* mile] [E three] [E long] ] ] ] 
+39	1.57	1 	E	1.55->1.57	a
+39	1.59	1 	E	1.55->1.59	wide
+39	1.63	1 	E	1.61->1.63	three
+39	1.64	1 	E	1.61->1.64	long
+39	1.67	1 	D	1.2->1.67	could
+39	1.68	1 	D	1.2->1.68	still
+39	1.73	1 	E	1.72->1.73	this
+39	1.74	1 	E	1.72->1.74	phenomenal
+39	1.76	1 	D	1.70->1.76	greatly
+39	1.79	1 	E	1.78->1.79	the
+39	1.82	2 	E	1.78->1.82	[C anything] [E [A* anything] [T then] [P known] [A [R to] [C ichthyologists] ] ] 
+39	1.84	4 	E	1.82->1.84	[A* anything] [T then] [P known] [A [R to] [C ichthyologists] ] 
+40	1.14	1 	E	1.13->1.14	an
+40	1.15	1 	D	1.10->1.15	undeniable
+40	1.22	1 	E	1.21->1.22	the
+40	1.23	1 	E	1.21->1.23	human
+40	1.31	1 	E	1.26->1.31	wonder
+40	1.35	1 	D	1.33->1.35	can
+40	1.38	1 	E	1.37->1.38	the
+40	1.39	1 	E	1.37->1.39	worldwide
+40	1.41	3 	E	1.37->1.41	[A* excitement] [P caused] [A [A IMPLICIT] [R by] [P [E this] ... [C apparition] ] [D unearthly] ] 
+40	1.47	1 	E	1.46->1.47	this
+40	1.48	1 	D	1.43->1.48	unearthly
+40	1.58	1 	E	1.56->1.58	the
+40	1.62	1 	E	1.56->1.62	fiction
+40	1.66	1 	E	1.65->1.66	that
+40	1.68	2 	D	1.64->1.68	had to
+41	1.13	2 	E	1.12->1.13	[E the] [C steamer] 
+41	1.14	1 	E	1.13->1.14	the
+41	1.18	4 	E	1.12->1.18	[R from] [E the] [C Calcutta ... Burnach Steam Navigation Co] [U &] 
+41	1.20	1 	E	1.18->1.20	the
+41	1.27	1 	E	1.26->1.27	this
+41	1.28	2 	E	1.26->1.28	[P moving] [A* mass] 
+41	1.32	3 	E	1.31->1.32	[E five] [C miles] [R off] 
+41	1.33	1 	E	1.32->1.33	five
+41	1.37	1 	E	1.31->1.37	the
+41	1.38	1 	E	1.31->1.38	eastern
+41	1.42	1 	E	1.31->1.42	Australia
+41	1.46	2 	D	1.44->1.46	[R at] [C first] 
+41	1.55	1 	E	1.53->1.55	the
+41	1.59	1 	E	1.57->1.59	an
+41	1.60	1 	E	1.57->1.60	unknown
+41	1.66	2 	E	1.65->1.66	[F was] ... [C about] 
+41	1.73	1 	E	1.72->1.73	its
+41	1.74	1 	E	1.72->1.74	exact
+41	1.79	1 	E	1.78->1.79	two
+41	1.85	1 	E	1.82->1.85	this
+41	1.86	1 	E	1.82->1.86	inexplicable
+41	1.92	1 	E	1.90->1.92	hissing
+41	1.95	1 	E	1.93->1.95	the
+41	1.98	1 	E	1.97->1.98	some
+41	1.99	1 	E	1.97->1.99	150
+41	1.107	1 	E	1.106->1.107	this
+41	1.114	1 	E	1.113->1.114	the
+41	1.115	1 	D	1.111->1.115	intermittent
+41	1.119	1 	E	1.117->1.119	a
+41	1.124	2 	E	1.123->1.124	[E the] [C Governor] 
+41	1.125	1 	E	1.124->1.125	the
+41	1.129	3 	D	1.122->1.129	[C [E fair] ... [C* dealings] ] [N and] [C honest] 
+41	1.131	1 	E	1.130->1.131	fair
+41	1.137	1 	E	1.135->1.137	some
+41	1.138	1 	E	1.135->1.138	aquatic
+41	1.141	4 	E	1.135->1.141	[A IMPLICIT] [A* mammal] [T [E until] [C then] ] [P unknown] 
+41	1.144	1 	E	1.143->1.144	until
+41	1.148	6 	E	1.135->1.148	[A* mammal] [R that] [D could] [P spurt] [A [R from] [E its] [C blowholes] ] [A [C waterspouts] [E [A IMPLICIT] [A* waterspouts] [P mixed] [A [R with] [C [C air] [N and] [C steam] [U .] ] ] ] ] 
+41	1.150	1 	D	1.148->1.150	could
+41	1.154	1 	E	1.152->1.154	its
+41	1.158	4 	E	1.156->1.158	[A IMPLICIT] [A* waterspouts] [P mixed] [A [R with] [C [C air] [N and] [C steam] [U .] ] ] 
+42	1.4	1 	E	1.3->1.4	Similar
+42	1.7	1 	D	1.2->1.7	likewise
+42	1.11	1 	E	1.9->1.11	Pacific
+42	1.17	4 	E	1.14->1.17	[R of] [E the] [E same] [C year] 
+42	1.19	1 	E	1.17->1.19	the
+42	1.20	1 	E	1.17->1.20	same
+42	1.25	1 	E	1.23->1.25	the
+42	1.27	4 	E	1.23->1.27	[R from] [E the] [C West India ... Pacific Steam Navigation Co] [U &] 
+42	1.29	1 	E	1.27->1.29	the
+42	1.37	1 	E	1.36->1.37	this
+42	1.38	1 	E	1.36->1.38	extraordinary
+42	1.40	1 	D	1.35->1.40	could
+42	1.46	1 	E	1.45->1.46	one
+42	1.50	1 	E	1.49->1.50	another
+42	1.51	3 	D	1.35->1.51	[R with] [E startling] [C swiftness] 
+42	1.53	1 	E	1.51->1.53	startling
+42	1.60	1 	E	1.58->1.60	an
+42	1.62	4 	E	1.58->1.62	[R of] [E just] [E three] [C days] 
+42	1.64	1 	E	1.62->1.64	just
+42	1.66	1 	E	1.62->1.66	three
+42	1.71	1 	E	1.70->1.71	the
+42	1.75	1 	E	1.74->1.75	the
+42	1.82	1 	E	1.80->1.82	two
+42	1.84	3 	E	1.80->1.84	[R on] [E the] [C charts] 
+42	1.86	1 	E	1.84->1.86	the
+42	1.88	3 	E	1.80->1.88	[A* positions] [P separated] [A [R by] [E [E a] [C distance] ] [R of] [E more] [F than] [E 700] [E nautical] [C leagues] [U .] ] 
+42	1.92	2 	E	1.90->1.92	[E a] [C distance] 
+42	1.93	1 	E	1.92->1.93	a
+42	1.97	1 	E	1.90->1.97	more
+42	1.100	1 	E	1.90->1.100	700
+42	1.102	1 	E	1.90->1.102	nautical
+43	1.4	1 	E	1.3->1.4	Fifteen
+43	1.6	1 	E	1.3->1.6	later
+43	1.9	1 	E	1.7->1.9	2,000
+43	1.11	1 	E	1.7->1.11	farther
+43	1.15	1 	E	1.14->1.15	the
+43	1.17	3 	E	1.14->1.17	[R from] [E the] [C Compagnie Nationale] 
+43	1.19	1 	E	1.17->1.19	the
+43	1.23	1 	E	1.22->1.23	the
+43	1.25	4 	E	1.22->1.25	[R from] [E the] [E Royal Mail] [C line] 
+43	1.27	1 	E	1.25->1.27	the
+43	1.28	2 	E	1.25->1.28	Royal Mail
+43	1.35	1 	E	1.33->1.35	opposite
+43	1.39	1 	E	1.37->1.39	that
+43	1.42	2 	E	1.37->1.42	[E the] [C Atlantic] 
+43	1.43	1 	E	1.42->1.43	the
+43	1.45	3 	E	1.37->1.45	[A* part] [S lying] [A [R between] [C [C the United States] [N and] [C Europe] ] ] 
+43	1.54	1 	D	1.2->1.54	respectively
+43	1.60	1 	E	1.59->1.60	the
+43	1.68	1 	E	1.66->1.68	latitude
+43	1.74	1 	E	1.73->1.74	longitude
+43	1.78	5 	E	1.73->1.78	[R of] [E the] [C meridian] [R of] [E Greenwich] 
+43	1.80	1 	E	1.78->1.80	the
+43	1.83	1 	E	1.78->1.83	Greenwich
+43	1.88	1 	E	1.86->1.88	their
+43	1.89	1 	E	1.86->1.89	simultaneous
+43	1.94	1 	D	1.85->1.94	able
+43	1.98	1 	E	1.97->1.98	the
+43	1.99	1 	E	1.97->1.99	mammal
+43	1.101	1 	E	1.97->1.101	minimum
+43	1.105	2 	E	1.103->1.105	[C more] [R than] 
+43	1.108	1 	E	1.103->1.108	350
+43	1.109	1 	E	1.103->1.109	English
+43	1.118	1 	E	1.117->1.118	both
+43	1.121	1 	E	1.120->1.121	the
+43	1.125	1 	E	1.124->1.125	the
+43	1.130	1 	E	1.128->1.130	smaller
+43	1.138	1 	E	1.137->1.138	100
+43	1.140	4 	E	1.137->1.140	[R IMPLICIT] [C stem] [R to] [C stern] 
+43	1.150	1 	E	1.149->1.150	the
+43	1.151	1 	E	1.149->1.151	biggest
+43	1.154	4 	E	1.149->1.154	[E those] [E rorqual] [C whales] [E [A* whales] [R that] [P frequent] [A [E the] [C waterways] [R of] [E [E the] [E Aleutian] [C Islands] ] ] ] 
+43	1.155	1 	E	1.154->1.155	those
+43	1.156	1 	E	1.154->1.156	rorqual
+43	1.158	4 	E	1.154->1.158	[A* whales] [R that] [P frequent] [A [E the] [C waterways] [R of] [E [E the] [E Aleutian] [C Islands] ] ] 
+43	1.162	1 	E	1.161->1.162	the
+43	1.165	3 	E	1.161->1.165	[E the] [E Aleutian] [C Islands] 
+43	1.166	1 	E	1.165->1.166	the
+43	1.167	1 	E	1.165->1.167	Aleutian
+43	1.174	2 	E	1.173->1.174	[E a] [C length] 
+43	1.175	1 	E	1.174->1.175	a
+43	1.178	1 	E	1.173->1.178	56
+44	1.3	3 	D	1.2->1.3	[C One] [R after] [C another] 
+44	1.9	2 	E	1.8->1.9	[C reports] ... [E [A* reports] [R that] [F would] [D profoundly] [P affect] [A [E public] [C opinion] ] ] 
+44	1.12	6 	E	1.9->1.12	[A* reports] [R that] [F would] [D profoundly] [P affect] [A [E public] [C opinion] ] 
+44	1.15	1 	D	1.12->1.15	profoundly
+44	1.18	1 	E	1.17->1.18	public
+44	1.24	1 	E	1.23->1.24	new
+44	1.29	3 	E	1.27->1.29	[E the] [E transatlantic] [C liner] 
+44	1.30	1 	E	1.29->1.30	the
+44	1.31	1 	E	1.29->1.31	transatlantic
+44	1.37	1 	E	1.36->1.37	the
+44	1.38	2 	E	1.36->1.38	[E Inman] [C line] 
+44	1.39	1 	E	1.38->1.39	Inman
+44	1.46	1 	E	1.44->1.46	the
+44	1.51	1 	E	1.50->1.51	an
+44	1.52	1 	E	1.50->1.52	official
+44	1.59	2 	E	1.55->1.59	[E [E the] [E French] [C frigate] ] [C Normandy] 
+44	1.60	3 	E	1.59->1.60	[E the] [E French] [C frigate] 
+44	1.61	1 	E	1.60->1.61	the
+44	1.62	1 	E	1.60->1.62	French
+44	1.68	2 	D	1.67->1.68	dead ... earnest
+44	1.74	1 	E	1.72->1.74	the
+44	1.75	1 	E	1.72->1.75	general
+44	1.78	3 	E	1.72->1.78	Commodore Fitz ... James
+44	1.82	1 	E	1.80->1.82	the
+44	1.88	1 	E	1.86->1.88	lighthearted
+44	1.95	1 	E	1.93->1.95	this
+44	1.102	1 	E	1.101->1.102	such
+44	1.103	1 	E	1.101->1.103	serious
+44	1.105	1 	E	1.101->1.105	practical
+44	1.108	6 	E	1.101->1.108	[C England] [U ,] [C America] [U ,] [N and] [C Germany] 
+44	1.116	1 	D	1.99->1.116	deeply
+45	1.5	1 	E	1.3->1.5	every
+45	1.6	1 	E	1.3->1.6	big
+45	1.9	1 	E	1.8->1.9	the
+45	1.22	1 	E	1.20->1.22	the
+45	1.23	1 	E	1.20->1.23	coffee
+45	1.32	1 	E	1.30->1.32	the
+45	1.41	1 	E	1.39->1.41	the
+45	1.46	1 	E	1.45->1.46	The
+45	1.51	1 	E	1.50->1.51	a
+45	1.52	1 	E	1.50->1.52	fine
+45	1.55	3 	E	1.50->1.55	[A* [E The] [C tabloids] ] [P hatching] [A [E [E all] [C sorts] ] [R of] [C hoaxes] ] 
+45	1.58	2 	E	1.57->1.58	[E all] [C sorts] 
+45	1.59	1 	E	1.58->1.59	all
+45	1.67	1 	E	1.65->1.67	those
+45	1.69	2 	E	1.65->1.69	[A* newspapers] [S short of copy] 
+45	1.76	1 	E	1.75->1.76	the
+45	1.80	1 	E	1.78->1.80	every
+45	1.81	1 	E	1.78->1.81	gigantic
+45	1.82	1 	E	1.78->1.82	imaginary
+45	1.85	6 	E	1.78->1.85	[N from] [U "] [C [C Moby Dick] [U ,] [U "] [E [E that] [E dreadful] [E white] [C whale] [R from] [E [E the] [E [E High] [C Arctic] ] [C regions] ] ] ] [U ,] [N to] [C [E the] [E stupendous] [C kraken] [E [H [A* kraken] [R whose] [A tentacles] [D could] [P entwine] [A [E a] [E [E 500] [U -] [C ton] ] [C craft] ] ] [L and] [H [A* kraken] [P drag] [A it] [A [R into] [E the] [E ocean] [C depths] ] ] ] ] 
+45	1.92	6 	E	1.87->1.92	[E that] [E dreadful] [E white] [C whale] [R from] [E [E the] [E [E High] [C Arctic] ] [C regions] ] 
+45	1.93	1 	E	1.92->1.93	that
+45	1.94	1 	E	1.92->1.94	dreadful
+45	1.95	1 	E	1.92->1.95	white
+45	1.98	3 	E	1.92->1.98	[E the] [E [E High] [C Arctic] ] [C regions] 
+45	1.99	1 	E	1.98->1.99	the
+45	1.100	2 	E	1.98->1.100	[E High] [C Arctic] 
+45	1.101	1 	E	1.100->1.101	High
+45	1.107	1 	E	1.106->1.107	the
+45	1.108	1 	E	1.106->1.108	stupendous
+45	1.110	3 	E	1.106->1.110	[H [A* kraken] [R whose] [A tentacles] [D could] [P entwine] [A [E a] [E [E 500] [U -] [C ton] ] [C craft] ] ] [L and] [H [A* kraken] [P drag] [A it] [A [R into] [E the] [E ocean] [C depths] ] ] 
+45	1.114	1 	D	1.111->1.114	could
+45	1.117	1 	E	1.116->1.117	a
+45	1.118	3 	E	1.116->1.118	[E 500] [U -] [C ton] 
+45	1.119	1 	E	1.118->1.119	500
+45	1.129	1 	E	1.127->1.129	the
+45	1.130	1 	E	1.127->1.130	ocean
+45	1.138	3 	E	1.137->1.138	[C reports] [R from] [E [E ancient] [C times] ] 
+45	1.141	2 	E	1.138->1.141	[E ancient] [C times] 
+45	1.142	1 	E	1.141->1.142	ancient
+45	1.147	1 	E	1.146->1.147	the
+45	1.149	3 	E	1.146->1.149	[C [R of] [C Aristotle] ] [N and] [C [R* of] [C Pliny] ] 
+45	1.156	3 	E	1.146->1.156	[A* views] [P accepting] [A [S [E the] [C existence] ] [A [R of] [E such] [C monsters] ] ] 
+45	1.160	1 	E	1.159->1.160	the
+45	1.164	1 	E	1.162->1.164	such
+45	1.169	1 	E	1.168->1.169	the
+45	1.170	1 	E	1.168->1.170	Norwegian
+45	1.173	2 	E	1.168->1.173	Bishop Pontoppidan
+45	1.176	1 	E	1.175->1.176	the
+45	1.179	2 	E	1.175->1.179	Paul Egede
+45	1.183	1 	E	1.182->1.183	the
+45	1.185	4 	E	1.182->1.185	[R of] [C Captain Harrington] [U -] [E [A* Captain Harrington] [R whose] [A [E good] [C faith] ] [F is] [S [E above] [C suspicion] ] ] 
+45	1.189	5 	E	1.185->1.189	[A* Captain Harrington] [R whose] [A [E good] [C faith] ] [F is] [S [E above] [C suspicion] ] 
+45	1.192	1 	E	1.191->1.192	good
+45	1.196	1 	E	1.195->1.196	above
+45	1.199	5 	E	1.182->1.199	[A* reports] [R in which] [A he] [P claims] [A [H [A he] [P saw] ... [A [E one] [R of] [E those] [E enormous] [C serpents] [E [A* serpents] [R that] [U ,] [T [E until] [C then] ] [U ,] [F had] [P frequented] [A [E only] [E the] [C seas] [R of] [E [E [E France] [U '] [F s] [E old] [E extremist] [C newspaper] ] [U ,] [C The Constitutionalist] ] ] ] ] ] [U ,] [L while] [H [A* he] [S aboard] [A [E the] [C Castilian] ] [T [R in] [C 1857] ] ] [U ,] ] 
+45	1.212	1 	E	1.211->1.212	the
+45	1.219	1 	E	1.218->1.219	one
+45	1.221	1 	E	1.218->1.221	those
+45	1.222	1 	E	1.218->1.222	enormous
+45	1.224	8 	E	1.218->1.224	[A* serpents] [R that] [U ,] [T [E until] [C then] ] [U ,] [F had] [P frequented] [A [E only] [E the] [C seas] [R of] [E [E [E France] [U '] [F s] [E old] [E extremist] [C newspaper] ] [U ,] [C The Constitutionalist] ] ] 
+45	1.228	1 	E	1.227->1.228	until
+45	1.234	1 	E	1.233->1.234	only
+45	1.235	1 	E	1.233->1.235	the
+45	1.238	3 	E	1.233->1.238	[E [E France] [U '] [F s] [E old] [E extremist] [C newspaper] ] [U ,] [C The Constitutionalist] 
+45	1.239	6 	E	1.238->1.239	[E France] [U '] [F s] [E old] [E extremist] [C newspaper] 
+45	1.240	1 	E	1.239->1.240	France
+45	1.243	1 	E	1.239->1.243	old
+45	1.244	1 	E	1.239->1.244	extremist
+46	1.4	1 	E	1.3->1.4	An
+46	1.5	1 	E	1.3->1.5	interminable
+46	1.18	1 	E	1.16->1.18	the
+46	1.18	1 	E	1.22->1.18	the
+46	1.19	1 	E	1.16->1.19	scholarly
+46	1.23	1 	E	1.22->1.23	scientific
+46	1.28	1 	E	1.27->1.28	The
+46	1.34	1 	E	1.33->1.34	all
+46	1.40	1 	E	1.38->1.40	this
+46	1.41	1 	E	1.38->1.41	memorable
+46	1.46	3 	E	1.44->1.46	[A* journalists] [P making] [A [E a] [C profession] [R of] [E science] ] 
+46	1.49	1 	E	1.48->1.49	a
+46	1.52	1 	E	1.48->1.52	science
+46	1.56	1 	E	1.54->1.56	those
+46	1.57	3 	E	1.54->1.57	[A* journalists] [P making] [A [E a] [C profession] [R of] [E wit] ] 
+46	1.60	1 	E	1.59->1.60	a
+46	1.63	1 	E	1.59->1.63	wit
+46	1.70	1 	E	1.67->1.70	ink
+46	1.74	1 	E	1.73->1.74	some
+46	1.79	3 	E	1.78->1.79	[C two] [N or] [C three] 
+46	1.85	1 	E	1.78->1.85	blood
+46	1.93	1 	E	1.91->1.93	sea
+46	1.97	1 	E	1.95->1.97	the
+46	1.98	1 	E	1.95->1.98	most
+46	1.99	1 	E	1.95->1.99	offensive
+46	1.100	1 	E	1.95->1.100	personal
+47	1.5	1 	E	1.3->1.5	six
+47	1.8	1 	E	1.7->1.8	the
+47	1.13	3 	D	1.12->1.13	[R With] [E inexhaustible] [C zest] 
+47	1.15	1 	E	1.13->1.15	inexhaustible
+47	1.19	1 	E	1.18->1.19	the
+47	1.20	1 	E	1.18->1.20	popular
+47	1.22	1 	D	1.12->1.22	took
+47	1.27	1 	E	1.25->1.27	feature
+47	1.29	4 	E	1.25->1.29	[R from] [C the Geographic Institute] [R of] [E Brazil] 
+47	1.33	1 	E	1.29->1.33	Brazil
+47	1.35	4 	E	1.25->1.35	[R* from] [C the Royal Academy of Science] [R in] [E Berlin] 
+47	1.38	1 	E	1.35->1.38	Berlin
+47	1.40	3 	E	1.25->1.40	the British Association
+47	1.42	5 	E	1.25->1.42	[R* from] [C the Smithsonian Institution] [R in] [E Washington ... D.C] [U ,] 
+47	1.45	2 	E	1.42->1.45	Washington ... D.C
+47	1.52	2 	E	1.49->1.52	[R in] [C The Indian Archipelago] 
+47	1.56	3 	E	1.49->1.56	[R in] [C Cosmos] [E [A* Cosmos] [P published] [A [R by] [C Father Moigno] ] ] 
+47	1.59	3 	E	1.56->1.59	[A* Cosmos] [P published] [A [R by] [C Father Moigno] ] 
+47	1.65	2 	E	1.49->1.65	[R in] [C Petermann 's Mittheilungen,2] 
+47	1.71	1 	E	1.69->1.71	scientific
+47	1.73	5 	E	1.69->1.73	[R in] [E the] [E great] [E [C French] [N and] [C foreign] ] [C newspapers] 
+47	1.75	1 	E	1.73->1.75	the
+47	1.76	1 	E	1.73->1.76	great
+47	1.77	3 	E	1.73->1.77	[C French] [N and] [C foreign] 
+47	1.86	1 	E	1.85->1.86	the
+47	1.87	1 	E	1.85->1.87	monster
+47	1.92	1 	E	1.91->1.92	a
+47	1.97	2 	E	1.95->1.97	[E the] [C botanist] 
+47	1.98	1 	E	1.97->1.98	the
+47	1.106	1 	D	1.103->1.106	n't
+47	1.112	1 	E	1.111->1.112	witty
+47	1.114	4 	E	1.111->1.114	[R in] [E the] [E popular] [C periodicals] 
+47	1.116	1 	E	1.114->1.116	the
+47	1.117	1 	E	1.114->1.117	popular
+47	1.124	2 	D	1.122->1.124	[R in] [C essence] 
+47	1.132	1 	D	1.127->1.132	n't
+47	1.141	1 	E	1.140->1.141	their
+47	1.148	1 	E	1.147->1.148	the
+47	1.162	1 	E	1.161->1.162	sea
+47	1.171	1 	E	1.170->1.171	other
+47	1.172	2 	E	1.170->1.172	all ... out
+47	1.175	3 	E	1.170->1.175	[R from] [E drunken] [C seamen] 
+47	1.177	1 	E	1.175->1.177	drunken
+47	1.185	1 	E	1.183->1.185	a
+47	1.186	3 	E	1.183->1.186	[E much] [U -] [C feared] 
+47	1.187	1 	E	1.186->1.187	much
+47	1.190	1 	E	1.183->1.190	satirical
+47	1.194	1 	E	1.193->1.194	an
+47	1.196	5 	E	1.193->1.196	[R by] [E its] [E most] [E popular] [C columnist] 
+47	1.198	1 	E	1.196->1.198	its
+47	1.199	1 	E	1.196->1.199	most
+47	1.200	1 	E	1.196->1.200	popular
+47	1.204	1 	E	1.203->1.204	the
+47	1.206	2 	D	1.182->1.206	for good
+47	1.212	4 	E	1.211->1.212	[R in] [E the] [C style] [R of] 
+47	1.214	1 	E	1.212->1.214	the
+47	1.218	3 	E	1.211->1.218	[A* Hippolytus] [P repulsing] [A [E the] [E amorous] [C advances] [E [R of] [E [E his] [C stepmother] ] [C Phaedra] ] ] 
+47	1.221	1 	E	1.220->1.221	the
+47	1.222	1 	E	1.220->1.222	amorous
+47	1.224	3 	E	1.220->1.224	[R of] [E [E his] [C stepmother] ] [C Phaedra] 
+47	1.226	2 	E	1.224->1.226	[E his] [C stepmother] 
+47	1.227	1 	E	1.226->1.227	his
+47	1.235	1 	E	1.234->1.235	the
+47	1.238	1 	E	1.237->1.238	its
+47	1.244	1 	E	1.243->1.244	a
+47	1.245	1 	D	1.240->1.245	universal
+48	1.6	1 	E	1.4->1.6	the
+48	1.7	1 	E	1.4->1.7	first
+48	1.9	3 	E	1.4->1.9	[R of] [E [E the] [C year] ] [C 1867] 
+48	1.11	2 	E	1.9->1.11	[E the] [C year] 
+48	1.12	1 	E	1.11->1.12	the
+48	1.17	1 	E	1.16->1.17	the
+48	1.28	1 	D	1.25->1.28	n't
+48	1.38	1 	E	1.37->1.38	new
+48	1.44	1 	E	1.42->1.44	the
+48	1.45	1 	E	1.42->1.45	public
+48	1.54	2 	D	1.50->1.54	[E no] [C longer] 
+48	1.55	1 	E	1.54->1.55	no
+48	1.58	1 	E	1.57->1.58	an
+48	1.63	1 	E	1.62->1.63	a
+48	1.64	1 	E	1.62->1.64	scientific
+48	1.75	1 	E	1.74->1.75	a
+48	1.76	3 	E	1.74->1.76	[C [E quite] [C real] ] [N and] [C [E* quite] [C serious] ] 
+48	1.78	1 	E	1.77->1.78	quite
+48	1.78	1 	E	1.81->1.78	quite
+48	1.90	1 	E	1.89->1.90	The
+48	1.93	2 	D	1.88->1.93	[E entirely] [C new] 
+48	1.94	1 	E	1.93->1.94	entirely
+48	1.99	1 	E	1.98->1.99	The
+48	1.101	1 	D	1.97->1.101	again
+48	1.106	1 	E	1.105->1.106	an
+48	1.106	1 	E	1.109->1.106	an
+48	1.106	1 	E	1.113->1.106	an
+48	1.117	5 	E	1.103->1.117	[E a] [E runaway] [C reef] [U ,] [E [A* reef] [S [C unfixed] [N and] [C elusive] [U .] ] ] 
+48	1.118	1 	E	1.117->1.118	a
+48	1.119	1 	E	1.117->1.119	runaway
+48	1.122	2 	E	1.117->1.122	[A* reef] [S [C unfixed] [N and] [C elusive] [U .] ] 
+49	1.9	1 	E	1.8->1.9	the
+49	1.11	3 	E	1.8->1.11	[R from] [E the] [C Montreal Ocean Co] 
+49	1.13	1 	E	1.11->1.13	the
+49	1.17	4 	E	1.8->1.17	[A* Moravian] [P lying] [T [R during] [E the] [C night] ] [A [C [R in] [E latitude] [C 27 30] ] [U °] [U '] [N and] [C [R* in] [E longitude] [C 72 15] ] ] 
+49	1.21	1 	E	1.19->1.21	the
+49	1.26	1 	E	1.24->1.26	latitude
+49	1.32	1 	E	1.31->1.32	longitude
+49	1.39	1 	E	1.38->1.39	its
+49	1.40	1 	E	1.38->1.40	starboard
+49	1.44	1 	E	1.42->1.44	a
+49	1.46	3 	E	1.42->1.46	[A* rock] [P marked] [A [R on] [E no] [C charts] [E [R of] [E these] [C waterways] ] ] 
+49	1.50	1 	E	1.48->1.50	no
+49	1.52	3 	E	1.48->1.52	[R of] [E these] [C waterways] 
+49	1.54	1 	E	1.52->1.54	these
+49	1.61	1 	E	1.60->1.61	the
+49	1.62	1 	D	1.58->1.62	combined
+49	1.70	3 	E	1.69->1.70	[E 400] [U -] [C horsepower] 
+49	1.71	1 	E	1.70->1.71	400
+49	1.81	1 	E	1.79->1.81	a
+49	1.83	3 	E	1.79->1.83	[R of] [E thirteen] [C knots] 
+49	1.85	1 	E	1.83->1.85	thirteen
+49	1.91	1 	E	1.89->1.91	the
+49	1.92	1 	E	1.89->1.92	high
+49	1.94	3 	E	1.89->1.94	[R of] [E its] [C hull] 
+49	1.96	1 	E	1.94->1.96	its
+49	1.100	1 	E	1.99->1.100	the
+49	1.102	1 	D	1.88->1.102	would
+49	1.108	1 	E	1.106->1.108	this
+49	1.115	1 	D	1.114->1.115	together
+49	1.118	1 	E	1.116->1.118	those
+49	1.119	1 	E	1.116->1.119	237
+49	1.121	5 	E	1.116->1.121	[A* passengers] [A it] [F was] [P bringing back] [A [R from] [C Canada] [U .] ] 
+50	1.4	1 	E	1.3->1.4	This
+50	1.10	3 	E	1.7->1.10	[R in] [E the] [C morning] 
+50	1.12	1 	E	1.10->1.12	the
+50	1.19	1 	D	1.16->1.19	beginning
+50	1.26	1 	E	1.24->1.26	The
+50	1.28	2 	E	1.24->1.28	[R on] [C [A* officers] [S watch] ] 
+50	1.35	3 	E	1.33->1.35	[E the] [C craft] [R 's] 
+50	1.36	1 	E	1.35->1.36	the
+50	1.45	1 	E	1.44->1.45	the
+50	1.50	1 	E	1.49->1.50	the
+50	1.51	2 	D	1.47->1.51	[E most] [C scrupulous] 
+50	1.52	1 	E	1.51->1.52	most
+50	1.64	1 	E	1.62->1.64	a
+50	1.65	1 	E	1.62->1.65	strong
+50	1.67	3 	E	1.62->1.67	[A* eddy] [P breaking ... out] [A [E three] [E cable] [C lengths] ] 
+50	1.70	1 	E	1.69->1.70	three
+50	1.72	1 	E	1.69->1.72	cable
+50	1.78	1 	E	1.77->1.78	those
+50	1.80	2 	E	1.77->1.80	[R of] [C water] 
+50	1.85	1 	D	1.76->1.85	violently
+50	1.91	3 	E	1.90->1.91	[E The] [C site] [F 's] 
+50	1.92	1 	E	1.91->1.92	The
+50	1.95	1 	E	1.90->1.95	exact
+50	1.103	1 	E	1.102->1.103	the
+50	1.111	1 	D	1.109->1.111	apparently
+50	1.121	1 	E	1.119->1.121	an
+50	1.122	1 	E	1.119->1.122	underwater
+50	1.126	1 	E	1.125->1.126	the
+50	1.128	5 	E	1.125->1.128	[R of] [E some] [E enormous] [E derelict] [C ship] 
+50	1.130	1 	E	1.128->1.130	some
+50	1.131	1 	E	1.128->1.131	enormous
+50	1.132	1 	E	1.128->1.132	derelict
+50	1.138	1 	D	1.135->1.138	unable
+50	1.152	1 	E	1.150->1.152	the
+50	1.154	1 	E	1.150->1.154	service
+50	1.164	2 	E	1.163->1.164	[C part] [R of] 
+50	1.168	1 	E	1.163->1.168	its
+51	1.5	1 	E	1.4->1.5	This
+51	1.8	4 	E	1.4->1.8	[A* occurrence] [D extremely] [S serious] [A [R in] [C itself] ] 
+51	1.9	1 	D	1.8->1.9	extremely
+51	1.15	1 	D	1.2->1.15	might
+51	1.22	2 	E	1.20->1.22	[E so] [C many] 
+51	1.23	1 	E	1.22->1.23	so
+51	1.31	1 	E	1.29->1.31	three
+51	1.36	1 	D	1.28->1.36	n't
+51	1.41	1 	E	1.39->1.41	identical
+51	1.51	1 	E	1.48->1.51	the
+51	1.53	4 	E	1.48->1.53	[R of] [E the] [C ship] [E [A* ship] [P victimized] [A [R by] [P [E this] ... [C ramming] ] [D new] ] ] 
+51	1.55	1 	E	1.53->1.55	the
+51	1.57	3 	E	1.53->1.57	[A* ship] [P victimized] [A [R by] [P [E this] ... [C ramming] ] [D new] ] 
+51	1.62	1 	E	1.61->1.62	this
+51	1.63	1 	D	1.59->1.63	new
+51	1.70	1 	E	1.67->1.70	the
+51	1.72	4 	E	1.67->1.72	[R of] [E the] [C company] [E [A* company] [R to which] [A [E this] [C ship] ] [P belonged] ] 
+51	1.74	1 	E	1.72->1.74	the
+51	1.76	4 	E	1.72->1.76	[A* company] [R to which] [A [E this] [C ship] ] [P belonged] 
+51	1.79	1 	E	1.78->1.79	this
+51	1.84	1 	E	1.83->1.84	the
+51	1.90	1 	E	1.89->1.90	an
+51	1.91	1 	D	1.87->1.91	immense
+52	1.8	1 	E	1.6->1.8	the
+52	1.10	3 	E	1.6->1.10	[R of] [E [A [E that] ... [C shipowner] ] [S famous] [D English] ... [U ,] [A* Cunard] ] [C Cunard] 
+52	1.12	5 	E	1.10->1.12	[A [E that] ... [C shipowner] ] [S famous] [D English] ... [U ,] [A* Cunard] 
+52	1.14	1 	E	1.13->1.14	that
+52	1.16	1 	D	1.12->1.16	English
+52	1.26	1 	E	1.25->1.26	this
+52	1.27	1 	E	1.25->1.27	shrewd
+52	1.32	1 	E	1.30->1.32	a
+52	1.33	1 	E	1.30->1.33	postal
+52	1.42	3 	E	1.30->1.42	[A* service] [P featuring] [A [E three] [E wooden] [C ships] [E [C [R with] [E [E 400] [U -] [C horsepower] ] [E paddle] [C wheels] ] [N and] [C [R* with] [E a] [C burden] [E [R of] [E 1,162] [E metric] [C tons] ] ] ] ] 
+52	1.45	1 	E	1.44->1.45	three
+52	1.46	1 	E	1.44->1.46	wooden
+52	1.48	3 	E	1.44->1.48	[C [R with] [E [E 400] [U -] [C horsepower] ] [E paddle] [C wheels] ] [N and] [C [R* with] [E a] [C burden] [E [R of] [E 1,162] [E metric] [C tons] ] ] 
+52	1.51	3 	E	1.49->1.51	[E 400] [U -] [C horsepower] 
+52	1.52	1 	E	1.51->1.52	400
+52	1.55	1 	E	1.49->1.55	paddle
+52	1.59	1 	E	1.58->1.59	a
+52	1.61	4 	E	1.58->1.61	[R of] [E 1,162] [E metric] [C tons] 
+52	1.63	1 	E	1.61->1.63	1,162
+52	1.65	1 	E	1.61->1.65	metric
+52	1.70	1 	E	1.69->1.70	Eight
+52	1.75	3 	E	1.74->1.75	[E the] [C company] [R 's] 
+52	1.76	1 	E	1.75->1.76	the
+52	1.84	1 	E	1.82->1.84	four
+52	1.85	3 	E	1.82->1.85	[E 650] [U -] [C horsepower] 
+52	1.86	1 	E	1.85->1.86	650
+52	1.90	4 	E	1.82->1.90	[R at] [E 1,820] [E metric] [C tons] 
+52	1.92	1 	E	1.90->1.92	1,820
+52	1.94	1 	E	1.90->1.94	metric
+52	1.101	1 	E	1.99->1.101	two
+52	1.102	1 	E	1.99->1.102	more
+52	1.107	1 	E	1.105->1.107	two
+52	1.108	1 	E	1.105->1.108	other
+52	1.110	3 	E	1.105->1.110	[C [R of] [E still] [E greater] [C power] ] [N and] [C [R* of] [E* still] [E* greater] [C tonnage] ] 
+52	1.113	1 	E	1.111->1.113	still
+52	1.113	1 	E	1.117->1.113	still
+52	1.114	1 	E	1.111->1.114	greater
+52	1.114	1 	E	1.117->1.114	greater
+52	1.125	1 	E	1.124->1.125	the
+52	1.129	7 	E	1.124->1.129	[A* Cunard Co] [R whose] [A [E [E mail] [U -] [C carrying] ] [C charter] ] [F had] [D just] [F been] [P renewed] 
+52	1.133	3 	E	1.132->1.133	[E mail] [U -] [C carrying] 
+52	1.134	1 	E	1.133->1.134	mail
+52	1.139	1 	D	1.129->1.139	just
+52	1.143	1 	D	1.120->1.143	successively
+52	1.147	1 	E	1.145->1.147	its
+52	1.152	1 	E	1.151->1.152	the
+52	1.156	1 	E	1.155->1.156	the
+52	1.160	1 	E	1.159->1.160	the
+52	1.164	1 	E	1.163->1.164	the
+52	1.168	1 	E	1.167->1.168	the
+52	1.173	1 	E	1.172->1.173	the
+52	1.176	3 	E	1.149->1.176	[S IMPLICIT] [A all] [A [C [C ships] [E [A* ships] [R of] [S [E top] [C speed] ] ] ] [N and] [U ,] [C [E [R after] [E the] [C Great Eastern] ] [U ,] [C [A* ships] [S [C* ships] [E the] [E biggest] ] [D ever] [A [A* ships] [F to] [P plow] [A [E the] [C seas] ] ] ] ] ] 
+52	1.182	3 	E	1.180->1.182	[A* ships] [R of] [S [E top] [C speed] ] 
+52	1.185	1 	E	1.184->1.185	top
+52	1.190	3 	E	1.189->1.190	[R after] [E the] [C Great Eastern] 
+52	1.192	1 	E	1.190->1.192	the
+52	1.197	1 	E	1.196->1.197	the
+52	1.199	1 	E	1.196->1.199	biggest
+52	1.200	1 	D	1.195->1.200	ever
+52	1.205	1 	E	1.204->1.205	the
+52	1.214	1 	E	1.213->1.214	this
+52	1.219	1 	E	1.217->1.219	twelve
+52	1.222	3 	E	1.217->1.222	[C [C* ships] [E eight] [E [R with] [E paddle] [C wheels] ] ] [N and] [C [C* ships] [E four] [E [R with] [C propellers] [U .] ] ] 
+52	1.224	1 	E	1.223->1.224	eight
+52	1.225	3 	E	1.223->1.225	[R with] [E paddle] [C wheels] 
+52	1.227	1 	E	1.225->1.227	paddle
+52	1.231	1 	E	1.230->1.231	four
+52	1.232	3 	E	1.230->1.232	[R with] [C propellers] [U .] 
+53	1.7	1 	E	1.6->1.7	these
+53	1.8	1 	E	1.6->1.8	highly
+53	1.9	1 	E	1.6->1.9	condensed
+53	1.18	1 	D	1.16->1.18	can
+53	1.19	1 	D	1.16->1.19	fully
+53	1.23	1 	E	1.22->1.23	the
+53	1.27	1 	E	1.25->1.27	this
+53	1.28	1 	E	1.25->1.28	maritime
+53	1.29	1 	E	1.25->1.29	transportation
+53	1.32	4 	E	1.25->1.32	[A* company] [S known] [A [E the] [C world] [R over] ] [A [A* company] [R for] [P [E its] ... [C management] ] [D shrewd] ] 
+53	1.35	1 	E	1.34->1.35	the
+53	1.41	1 	E	1.40->1.41	its
+53	1.42	1 	D	1.38->1.42	shrewd
+53	1.46	1 	D	1.45->1.46	No
+53	1.48	1 	E	1.47->1.48	transoceanic
+53	1.49	1 	E	1.47->1.49	navigational
+53	1.56	1 	E	1.54->1.56	more
+53	1.60	1 	D	1.59->1.60	no
+53	1.62	1 	E	1.61->1.62	business
+53	1.69	1 	E	1.67->1.69	greater
+53	1.75	2 	E	1.73->1.75	twenty ... six
+53	1.79	1 	E	1.78->1.79	Cunard
+53	1.82	1 	D	1.72->1.82	made
+53	1.83	1 	D	1.72->1.83	2,000
+53	1.84	1 	D	1.72->1.84	Atlantic
+53	1.86	1 	D	1.87->1.86	without
+53	1.86	1 	D	1.94->1.86	without
+53	1.90	1 	E	1.89->1.90	a
+53	1.98	1 	E	1.97->1.98	a
+53	1.105	1 	E	1.104->1.105	a
+53	1.109	1 	E	1.108->1.109	a
+53	1.115	1 	E	1.114->1.115	a
+53	1.123	1 	D	1.122->1.123	strong
+53	1.131	1 	D	1.129->1.131	still
+53	1.134	1 	E	1.133->1.134	the
+53	1.135	1 	E	1.133->1.135	Cunard
+53	1.137	3 	E	1.133->1.137	[R in preference to] [E all] [C others] 
+53	1.139	1 	E	1.137->1.139	all
+53	1.145	1 	D	1.143->1.145	can
+53	1.151	1 	E	1.150->1.151	a
+53	1.156	1 	E	1.154->1.156	official
+53	1.160	1 	E	1.159->1.160	Given
+53	1.170	1 	E	1.168->1.170	the
+53	1.172	3 	E	1.168->1.172	[A* uproar] [P provoked] [A [R by] [E this] [C accident] [E [A* accident] [P involving] [A [E [C one] [R of] ] [R its] [E finest] [C steamers] [U .] ] ] ] 
+53	1.176	1 	E	1.174->1.176	this
+53	1.178	3 	E	1.174->1.178	[A* accident] [P involving] [A [E [C one] [R of] ] [R its] [E finest] [C steamers] [U .] ] 
+53	1.181	2 	E	1.180->1.181	[C one] [R of] 
+53	1.185	1 	E	1.180->1.185	finest
+54	1.12	1 	E	1.11->1.12	a
+54	1.13	1 	E	1.11->1.13	smooth
+54	1.17	1 	E	1.16->1.17	a
+54	1.18	1 	E	1.16->1.18	moderate
+54	1.22	1 	E	1.21->1.22	the
+54	1.28	1 	E	1.27->1.28	longitude
+54	1.34	1 	E	1.33->1.34	latitude
+54	1.45	3 	E	1.43->1.45	[E a] [C speed] [R of] 
+54	1.46	1 	E	1.45->1.46	a
+54	1.49	1 	E	1.43->1.49	13.43
+54	1.53	3 	E	1.51->1.53	[E the] [C thrust] [R of] 
+54	1.54	1 	E	1.53->1.54	the
+54	1.57	1 	E	1.51->1.57	its
+54	1.58	3 	E	1.51->1.58	[E 1,000] [U -] [C horsepower] 
+54	1.59	1 	E	1.58->1.59	1,000
+54	1.66	1 	E	1.65->1.66	Its
+54	1.67	1 	E	1.65->1.67	paddle
+54	1.72	1 	E	1.71->1.72	the
+54	1.74	3 	D	1.64->1.74	[R with] [E perfect] [C steadiness] 
+54	1.76	1 	E	1.74->1.76	perfect
+54	1.85	3 	E	1.84->1.85	[E 6.7] [C meters] [R of] 
+54	1.86	1 	E	1.85->1.86	6.7
+54	1.94	1 	E	1.93->1.94	6,624
+54	1.95	1 	E	1.93->1.95	cubic
+55	1.7	3 	E	1.3->1.7	[R in] [E the] [C afternoon] 
+55	1.9	1 	E	1.7->1.9	the
+55	1.15	1 	E	1.14->1.15	a
+55	1.17	1 	E	1.14->1.17	high
+55	1.22	3 	E	1.19->1.22	[A* passengers] [P gathered] [A [R in] [E the] [E main] [C lounge] ] 
+55	1.26	1 	E	1.24->1.26	the
+55	1.27	1 	E	1.24->1.27	main
+55	1.31	1 	E	1.30->1.31	a
+55	1.33	1 	D	1.2->1.33	occurred
+55	1.37	1 	D	1.35->1.37	scarcely
+55	1.39	3 	D	1.35->1.39	[F on] [E the] [C whole] 
+55	1.41	1 	E	1.39->1.41	the
+55	1.48	3 	E	1.46->1.48	[E the] [C Scotia] [R 's] 
+55	1.49	1 	E	1.48->1.49	the
+55	1.53	4 	E	1.46->1.53	[R in] [E that] [C quarter] [E [E [E [E a] [C little] ] [C astern] [R of] ] [E its] [E port] [E paddle] [C wheel] [U .] ] 
+55	1.55	1 	E	1.53->1.55	that
+55	1.57	6 	E	1.53->1.57	[E [E [E a] [C little] ] [C astern] [R of] ] [E its] [E port] [E paddle] [C wheel] [U .] 
+55	1.58	3 	E	1.57->1.58	[E [E a] [C little] ] [C astern] [R of] 
+55	1.59	2 	E	1.58->1.59	[E a] [C little] 
+55	1.60	1 	E	1.59->1.60	a
+55	1.65	1 	E	1.57->1.65	its
+55	1.66	1 	E	1.57->1.66	port
+55	1.68	1 	E	1.57->1.68	paddle
+56	1.4	1 	E	1.3->1.4	The
+56	1.7	1 	D	1.2->1.7	n't
+56	1.24	3 	E	1.21->1.24	[C [E a] [C cutting] ] [N or] [C perforating] 
+56	1.26	1 	E	1.25->1.26	a
+56	1.33	1 	E	1.32->1.33	a
+56	1.34	1 	E	1.32->1.34	blunt
+56	1.39	1 	E	1.38->1.39	This
+56	1.43	1 	E	1.42->1.43	so
+56	1.51	1 	D	1.46->1.51	would
+56	1.60	5 	D	1.59->1.60	had it not been for
+56	1.62	1 	E	1.61->1.62	the
+56	1.67	3 	E	1.64->1.67	[R in] [E the] [C hold] 
+56	1.69	1 	E	1.67->1.69	the
+56	1.72	4 	E	1.64->1.72	[A* crewmen] [R who] [P climbed] [A [R on] [C deck] ] 
+57	1.7	1 	E	1.6->1.7	the
+57	1.10	1 	D	1.5->1.10	quite
+57	1.16	1 	E	1.15->1.16	Captain
+57	1.18	1 	D	1.14->1.18	hastened
+57	1.27	1 	D	1.23->1.27	could
+57	1.29	1 	D	1.23->1.29	no
+57	1.30	1 	D	1.23->1.30	immediate
+57	1.37	1 	E	1.35->1.37	seven
+57	1.41	1 	E	1.39->1.41	watertight
+57	1.46	1 	E	1.45->1.46	the
+57	1.48	1 	D	1.44->1.48	could
+57	1.51	1 	E	1.50->1.51	any
+57	1.53	3 	D	1.44->1.53	[R with] [C impunity] [U .] 
+58	1.4	1 	E	1.3->1.4	Captain
+58	1.10	1 	E	1.8->1.10	the
+58	1.19	1 	E	1.18->1.19	the
+58	1.20	1 	E	1.18->1.20	fifth
+58	1.27	1 	E	1.25->1.27	the
+58	1.34	1 	E	1.33->1.34	the
+58	1.38	1 	E	1.36->1.38	this
+58	1.44	1 	E	1.43->1.44	the
+58	1.52	1 	E	1.51->1.52	this
+58	1.55	1 	D	1.49->1.55	n't
+58	1.58	1 	E	1.57->1.58	the
+58	1.64	1 	E	1.63->1.64	their
+58	1.66	1 	D	1.62->1.66	would
+58	1.69	1 	D	1.62->1.69	abruptly
+59	1.4	1 	E	1.3->1.4	Captain
+59	1.8	1 	E	1.7->1.8	an
+59	1.9	1 	E	1.7->1.9	immediate
+59	1.15	2 	E	1.14->1.15	[C one] [R of] 
+59	1.19	1 	E	1.14->1.19	his
+59	1.27	1 	E	1.26->1.27	the
+59	1.38	1 	E	1.37->1.38	a
+59	1.40	3 	E	1.37->1.40	[E two] [C meters] [E [F in] [C width] ] 
+59	1.42	1 	E	1.40->1.42	two
+59	1.44	2 	E	1.40->1.44	[F in] [C width] 
+59	1.47	3 	E	1.37->1.47	[R on] [E [E the] [C steamer] [R 's] ] [C underside] 
+59	1.49	3 	E	1.47->1.49	[E the] [C steamer] [R 's] 
+59	1.50	1 	E	1.49->1.50	the
+59	1.58	1 	E	1.57->1.58	Such
+59	1.59	1 	E	1.57->1.59	a
+59	1.61	1 	D	1.55->1.61	could
+59	1.62	1 	D	1.55->1.62	not
+59	1.70	1 	E	1.69->1.70	its
+59	1.72	1 	E	1.69->1.72	paddle
+59	1.74	1 	D	1.68->1.74	half
+59	1.79	1 	E	1.78->1.79	the
+59	1.82	2 	D	1.77->1.82	no choice
+59	1.87	1 	E	1.86->1.87	its
+59	1.98	1 	E	1.96->1.98	300
+59	1.100	2 	E	1.96->1.100	[R from] [C Cape Clear] 
+59	1.108	1 	E	1.107->1.108	three
+59	1.110	2 	E	1.107->1.110	[R of] [C delay] 
+59	1.118	1 	E	1.116->1.118	acute
+59	1.125	1 	E	1.124->1.125	the
+59	1.127	1 	E	1.124->1.127	company
+60	1.4	1 	E	1.3->1.4	The
+60	1.7	1 	D	1.2->1.7	proceeded
+60	1.11	1 	E	1.10->1.11	the
+60	1.14	6 	E	1.10->1.14	[A* Scotia] [R which] [F had] [F been] [P put] [A [R in] [E dry] [C dock] ] 
+60	1.21	1 	E	1.19->1.21	dry
+60	1.26	1 	D	1.24->1.26	could
+60	1.27	1 	D	1.24->1.27	n't
+60	1.30	1 	E	1.29->1.30	their
+60	1.35	3 	E	1.34->1.35	[C Two] [N and] [C [E a] [C half] ] 
+60	1.39	1 	E	1.38->1.39	a
+60	1.42	3 	E	1.34->1.42	[R below] [E its] [C waterline] 
+60	1.44	1 	E	1.42->1.44	its
+60	1.50	1 	E	1.49->1.50	a
+60	1.51	1 	E	1.49->1.51	symmetrical
+60	1.53	5 	E	1.49->1.53	[R in] [E [E the] [C shape] [R of] ] [E an] [E isosceles] [C triangle] 
+60	1.55	3 	E	1.53->1.55	[E the] [C shape] [R of] 
+60	1.56	1 	E	1.55->1.56	the
+60	1.60	1 	E	1.53->1.60	an
+60	1.61	1 	E	1.53->1.61	isosceles
+60	1.66	1 	E	1.65->1.66	This
+60	1.68	4 	E	1.65->1.68	[R in] [E the] [E sheet] [C iron] 
+60	1.70	1 	E	1.68->1.70	the
+60	1.72	1 	E	1.68->1.72	sheet
+60	1.75	2 	D	1.64->1.75	[E so] [C perfectly] 
+60	1.76	1 	E	1.75->1.76	so
+60	1.82	1 	E	1.81->1.82	no
+60	1.84	1 	D	1.80->1.84	could
+60	1.88	1 	E	1.87->1.88	a
+60	1.89	1 	E	1.87->1.89	cleaner
+60	1.99	1 	D	1.97->1.99	must
+60	1.105	1 	E	1.103->1.105	a
+60	1.106	1 	E	1.103->1.106	perforating
+60	1.108	4 	E	1.103->1.108	[A* tool] [R of] [D uncommon] [S toughness] 
+60	1.110	1 	D	1.108->1.110	uncommon
+60	1.122	1 	E	1.120->1.122	prodigious
+60	1.130	1 	E	1.128->1.130	four
+60	1.132	3 	E	1.128->1.132	[R of] [E sheet] [C iron] 
+60	1.135	1 	E	1.132->1.135	sheet
+60	1.140	1 	E	1.139->1.140	this
+60	1.143	1 	D	1.138->1.143	needed
+60	1.149	1 	E	1.147->1.149	a
+60	1.150	1 	E	1.147->1.150	backward
+60	1.152	5 	E	1.147->1.152	[A IMPLICIT] [A* motion] [G truly] [P inexplicable] [U .] 
+61	1.6	1 	E	1.5->1.6	the
+61	1.7	1 	E	1.5->1.7	last
+61	1.18	1 	E	1.17->1.18	public
+61	1.20	2 	D	1.14->1.20	all over
+61	1.29	1 	E	1.27->1.29	this
+61	1.34	1 	E	1.33->1.34	any
+61	1.35	1 	E	1.33->1.35	maritime
+61	1.37	3 	E	1.33->1.37	[R without] [E an] [C [A IMPLICIT] [P established] [A cause] ] 
+61	1.39	1 	E	1.37->1.39	an
+61	1.48	3 	E	1.46->1.48	[E the] [C monster] [R 's] 
+61	1.49	1 	E	1.48->1.49	the
+61	1.56	1 	E	1.55->1.56	This
+61	1.57	1 	E	1.55->1.57	outrageous
+61	1.59	2 	D	1.54->1.59	had to
+61	1.63	6 	E	1.61->1.63	[R for] [E all] [E derelict] [C vessels] [U ,] [E [A* vessels] [R whose] [A numbers] [F are] [G unfortunately] [S considerable] ] 
+61	1.65	1 	E	1.63->1.65	all
+61	1.67	1 	E	1.63->1.67	derelict
+61	1.70	6 	E	1.63->1.70	[A* vessels] [R whose] [A numbers] [F are] [G unfortunately] [S considerable] 
+61	1.81	1 	E	1.79->1.81	those
+61	1.82	1 	E	1.79->1.82	3,000
+61	1.84	7 	E	1.79->1.84	[A* ships] [R whose] [A losses] [F are] [P recorded] [T annually] [A [R at] [E the] [E [E marine] [C insurance] ] [C bureau] ] 
+61	1.92	1 	E	1.90->1.92	the
+61	1.93	2 	E	1.90->1.93	[E marine] [C insurance] 
+61	1.94	1 	E	1.93->1.94	marine
+61	1.99	1 	E	1.98->1.99	the
+61	1.101	3 	E	1.98->1.101	[R for] [C [C [E steam] ... [C* ships] ] [N or] [C [E sailing] [C ships] ] ] [E [A* [C [E steam] ... [C* ships] ] [N or] [C [E sailing] [C ships] ] ] [D supposedly] [P lost] [A [R with] [C all hands] ] ] 
+61	1.105	1 	E	1.104->1.105	steam
+61	1.108	1 	E	1.107->1.108	sailing
+61	1.110	4 	E	1.101->1.110	[A* [C [E steam] ... [C* ships] ] [N or] [C [E sailing] [C ships] ] ] [D supposedly] [P lost] [A [R with] [C all hands] ] 
+61	1.111	1 	D	1.110->1.111	supposedly
+61	1.120	1 	E	1.119->1.120	the
+61	1.124	1 	E	1.122->1.124	any
+61	1.130	2 	E	1.128->1.130	at least
+62	1.9	1 	E	1.8->1.9	the
+62	1.18	1 	E	1.17->1.18	their
+62	1.31	1 	E	1.29->1.31	the
+62	1.32	1 	E	1.29->1.32	various
+62	1.35	1 	D	1.23->1.35	become
+62	1.36	3 	D	1.23->1.36	[C more] [N and] [C more] 
+62	1.44	1 	E	1.43->1.44	the
+62	1.50	2 	D	1.48->1.50	straight out
+62	1.55	3 	D	1.51->1.55	[R at] [E all] [C cost] 
+62	1.57	1 	E	1.55->1.57	all
+62	1.61	1 	E	1.60->1.61	the
+62	1.67	1 	E	1.65->1.67	this
+62	1.68	2 	E	1.65->1.68	[P fearsome] [A* cetacean] 

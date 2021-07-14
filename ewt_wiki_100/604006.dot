@@ -1,0 +1,24 @@
+digraph "604006" {
+  top [ style=invis ];
+  top -> 9;
+  0 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">McCartney</font></td></tr></table>> ];
+  1 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">agreed</font></td></tr></table>> ];
+  2 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">,</font></td></tr></table>> ];
+  3 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">but</font></td></tr></table>> ];
+  4 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">Lennon</font></td></tr></table>> ];
+  5 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">did</font></td></tr></table>> ];
+  6 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">not</font></td></tr></table>> ];
+  7 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">.</font></td></tr></table>> ];
+  8 -> 0 [ label="A" ];
+  8 -> 1 [ label="P" ];
+  9 -> 10 [ label="H" ];
+  9 -> 3 [ label="L" ];
+  9 -> 8 [ label="H" ];
+  9 -> 2 [ label="U" ];
+  10 -> 5 [ label="F" ];
+  10 -> 6 [ label="D" ];
+  10 -> 7 [ label="U" ];
+  10 -> 4 [ label="A" ];
+  10 -> 1 [ label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="1">P</td></tr><tr><td>remote</td></tr></table>>, style=dashed ];
+}
+

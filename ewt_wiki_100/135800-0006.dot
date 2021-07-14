@@ -1,0 +1,30 @@
+digraph "135800-0006" {
+  top [ style=invis ];
+  top -> 11;
+  0 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">They</font></td></tr></table>> ];
+  1 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">told</font></td></tr></table>> ];
+  2 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">me</font></td></tr></table>> ];
+  3 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">to</font></td></tr></table>> ];
+  4 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">bring</font></td></tr></table>> ];
+  5 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">it</font></td></tr></table>> ];
+  6 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">back</font></td></tr></table>> ];
+  7 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">after</font></td></tr></table>> ];
+  8 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">5000</font></td></tr></table>> ];
+  9 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">miles</font></td></tr></table>> ];
+  10 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">.</font></td></tr></table>> ];
+  11 -> 12 [ label="H" ];
+  12 -> 13 [ label="A" ];
+  12 -> 1 [ label="P" ];
+  12 -> 2 [ label="A" ];
+  12 -> 0 [ label="A" ];
+  13 -> 14 [ label="T" ];
+  13 -> 5 [ label="A" ];
+  13 -> 6 [ label="D" ];
+  13 -> 3 [ label="R" ];
+  13 -> 4 [ label="P" ];
+  14 -> 7 [ label="R" ];
+  14 -> 9 [ label="C" ];
+  14 -> 8 [ label="Q" ];
+  14 -> 10 [ label="U" ];
+}
+

@@ -1,0 +1,48 @@
+digraph "519010" {
+  top [ style=invis ];
+  top -> 19;
+  0 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">She</font></td></tr></table>> ];
+  1 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">was</font></td></tr></table>> ];
+  2 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">plagued</font></td></tr></table>> ];
+  3 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">by</font></td></tr></table>> ];
+  4 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">financial</font></td></tr></table>> ];
+  5 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">instability</font></td></tr></table>> ];
+  6 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">,</font></td></tr></table>> ];
+  7 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">often</font></td></tr></table>> ];
+  8 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">owing</font></td></tr></table>> ];
+  9 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">hundreds</font></td></tr></table>> ];
+  10 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">of</font></td></tr></table>> ];
+  11 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">thousands</font></td></tr></table>> ];
+  12 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">of</font></td></tr></table>> ];
+  13 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">dollars</font></td></tr></table>> ];
+  14 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">in</font></td></tr></table>> ];
+  15 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">back</font></td></tr></table>> ];
+  16 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">taxes</font></td></tr></table>> ];
+  17 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">.</font></td></tr></table>> ];
+  18 -> 2 [ label="P" ];
+  18 -> 1 [ label="F" ];
+  18 -> 0 [ label="A" ];
+  18 -> 20 [ label="A" ];
+  19 -> 6 [ label="U" ];
+  19 -> 18 [ label="H" ];
+  19 -> 21 [ label="H" ];
+  20 -> 3 [ label="R" ];
+  20 -> 4 [ label="A" ];
+  20 -> 5 [ label="S" ];
+  21 -> 0 [ label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="1">A</td></tr><tr><td>remote</td></tr></table>>, style=dashed ];
+  21 -> 8 [ label="S" ];
+  21 -> 7 [ label="D" ];
+  21 -> 23 [ label="A" ];
+  22 -> 9 [ label="C" ];
+  22 -> 11 [ label="C" ];
+  22 -> 10 [ label="R" ];
+  23 -> 22 [ label="E" ];
+  23 -> 12 [ label="R" ];
+  23 -> 13 [ label="C" ];
+  23 -> 24 [ label="E" ];
+  24 -> 15 [ label="E" ];
+  24 -> 17 [ label="U" ];
+  24 -> 14 [ label="R" ];
+  24 -> 16 [ label="C" ];
+}
+

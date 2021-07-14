@@ -1,0 +1,16 @@
+digraph "381455-0001" {
+  top [ style=invis ];
+  top -> 5;
+  0 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">Are</font></td></tr></table>> ];
+  1 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">you</font></td></tr></table>> ];
+  2 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">kidding</font></td></tr></table>> ];
+  3 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">me</font></td></tr></table>> ];
+  4 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">?</font></td></tr></table>> ];
+  5 -> 6 [ label="H" ];
+  6 -> 4 [ label="U" ];
+  6 -> 0 [ label="F" ];
+  6 -> 2 [ label="P" ];
+  6 -> 1 [ label="A" ];
+  6 -> 3 [ label="A" ];
+}
+

@@ -1,0 +1,24 @@
+digraph "311987-0004" {
+  top [ style=invis ];
+  top -> 8;
+  0 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">But</font></td></tr></table>> ];
+  1 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">just</font></td></tr></table>> ];
+  2 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">this</font></td></tr></table>> ];
+  3 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">week</font></td></tr></table>> ];
+  4 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">a</font></td></tr></table>> ];
+  5 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">peddle</font></td></tr></table>> ];
+  6 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">broke</font></td></tr></table>> ];
+  7 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">.</font></td></tr></table>> ];
+  8 -> 10 [ label="H" ];
+  8 -> 0 [ label="L" ];
+  9 -> 3 [ label="C" ];
+  9 -> 1 [ label="E" ];
+  9 -> 2 [ label="E" ];
+  10 -> 11 [ label="A" ];
+  10 -> 7 [ label="U" ];
+  10 -> 6 [ label="P" ];
+  10 -> 9 [ label="T" ];
+  11 -> 4 [ label="F" ];
+  11 -> 5 [ label="C" ];
+}
+

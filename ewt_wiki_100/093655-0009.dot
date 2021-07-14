@@ -1,0 +1,16 @@
+digraph "093655-0009" {
+  top [ style=invis ];
+  top -> 5;
+  0 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">Texas</font>,&nbsp;<font face="Courier">Roadhouse</font></td></tr></table>> ];
+  1 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">is</font></td></tr></table>> ];
+  2 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">WAY</font></td></tr></table>> ];
+  3 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">better</font></td></tr></table>> ];
+  4 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">!!</font></td></tr></table>> ];
+  5 -> 6 [ label="H" ];
+  6 -> 2 [ label="D" ];
+  6 -> 4 [ label="U" ];
+  6 -> 0 [ label="A" ];
+  6 -> 3 [ label="S" ];
+  6 -> 1 [ label="F" ];
+}
+
