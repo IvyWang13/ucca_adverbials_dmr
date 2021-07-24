@@ -1,45 +1,47 @@
 import pandas as pd
-from sklearn.metrics import cohen_kappa_score, multilabel_confusion_matrix, classification_report, precision_recall_fscore_support
+from sklearn.metrics import cohen_kappa_score, multilabel_confusion_matrix, classification_report, precision_recall_fscore_support, confusion_matrix
 import numpy as np
 
 #first download the input file from annotation sheet (google sheet) and turn into a .csv file
-infile = pd.read_csv('anno1_WSJ_MRP_UCCA.csv')
-anno1 = [str(i).lower() for i in infile['Annotator 1']]
-anno2 = [str(i).lower() for i in infile['Annotator 2']]
-outfile = open('WSJ_MRP_UCCA_IAA.txt', 'w')
-anno1 = [item.replace('?','') for item in anno1]
-anno2= [item.replace('?','') for item in anno2]
-anno2 = [item.replace('comparative','comparison') for item in anno2]
+infile = pd.read_csv('wiki+ewt_anno1.csv')
+anno1 = [str(i).lower() for i in infile['annotation1']]
+anno2 = [str(i).lower() for i in infile['annotation2']]
+outfile = open('wiki+ewt_anno1_results.txt', 'w')
 
-# #FREQUENCY
-anno1 = [item.replace('frequency','aspectual') for item in anno1]
-anno1 = [item.replace('aspectual/aspectual', 'aspectual') for item in anno1]
-anno2 = [item.replace('frequency','aspectual') for item in anno2]
+labels =['aspectual', 'causal', 'degree',
+                      'description', 'numeric',
+                      'comparison', 'possibility',
+                        'support', 'negation']
 
-# cause===condition
-anno1 = [item.replace('causal','condition') for item in anno1]
+# anno1 = [item.replace('?','') for item in anno1]
+# anno2= [item.replace('?','') for item in anno2]
+# anno2 = [item.replace('comparative','comparison') for item in anno2]
+#
+# # #FREQUENCY
+# anno1 = [item.replace('frequency','aspectual') for item in anno1]
+# anno1 = [item.replace('aspectual/aspectual', 'aspectual') for item in anno1]
 # anno2 = [item.replace('frequency','aspectual') for item in anno2]
 
-# # remove potential FL corrects
-indices = [9,45,48,50,66,74,77,85]
-for index in sorted(indices, reverse=True):
-    del anno1[index]
-    del anno2[index]
+# cause===condition
+# anno1 = [item.replace('causal','condition') for item in anno1]
+# # anno2 = [item.replace('frequency','aspectual') for item in anno2]
 
-#make into list
+# # # remove potential FL corrects
+# indices = [9,45,48,50,66,74,77,85]
+# for index in sorted(indices, reverse=True):
+#     del anno1[index]
+#     del anno2[index]
+
+# cohen's kappa treating as exact match, no multilabel
+ck_general = cohen_kappa_score(anno1, anno2, labels=labels)
+outfile.write(f"Cohen's Kappa treating as exact match, no multi-label: {ck_general}\n")
+print(f"Cohen's Kappa treating as exact match, no multi-label: {ck_general}\n")
+
+#make into list of list, for multilabel data
 anno1 = [[item.strip() for item in a.split('+')] for a in anno1]
 anno2 = [[item.strip() for item in a.split('+')] for a in anno2]
 print(anno1)
 print(anno2)
-# labels = ['aspectual','condition','degree',
-#           'description','frequency','quantity','comparison','possibility',
-#           'support','negation']
-
-labels =['aspectual', 'condition', 'degree',
-                      'description', 'quantity',
-                      'comparison', 'possibility',
-                        'support', 'negation']
-
 
 #calculate cohen's kappa on a per-category basis
 to_dict = lambda x: {k: [1 if k in y else 0 for y in x] for k in labels}
@@ -112,10 +114,17 @@ true_negative = mcm[:, 0,0]
 true_positive = mcm[:,1,1]
 false_negative = mcm[:, 1, 0]
 false_positive = mcm[:, 0,1]
-print(true_positive)
+
+#standard confusion matrix, treating multiple label as one label
+anno2_index_flat = [''.join(s) for s in anno2]
+anno1_index_flat = [''.join(s) for s in anno1]
+print('confusion matrix input example', anno1_index_flat)
+normal_mcm = confusion_matrix(anno2_index_flat, anno1_index_flat)
+outfile.write(f"\n\nConfusion Matrix (by exact match)\n  {normal_mcm}")
+
 outfile.write(f"\nBy label:\nmcm accuracy -{(true_positive + true_negative) /(true_positive + true_negative + false_negative+false_positive)}")
-outfile.write(f"\nmcm precision - {(true_positive ) /(true_positive + false_positive)}")
-outfile.write(f"\nmcm recall -  {(true_positive ) /(true_positive + false_negative)}")
+outfile.write(f"\nmcm precision - {(true_positive) /(true_positive + false_positive)}")
+outfile.write(f"\nmcm recall -  {(true_positive) /(true_positive + false_negative)}")
 
 clf_report = classification_report(np.array(anno2_binary), np.array(anno1_binary), target_names=labels)
 outfile.write(f"\n\nClassification report\n{clf_report}")

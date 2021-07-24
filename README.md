@@ -21,3 +21,7 @@ USES OF SCRIPTS IN THIS FOLDER
 ## folder ewt_wiki_100/
 - includes the more human-readable full annotation of each sentence in mrp_ucca.csv results.
 - Annotators can refer to the respective graphs for full foundational layer decisions made previously.
+
+## Reading multilabel confusion matrix
+- https://scikit-learn.org/stable/modules/generated/sklearn.metrics.multilabel_confusion_matrix.html
+- In multilabel confusion matrix , the count of true negatives is [0,0], false negatives is [1,0], true positives is [1,1] and false positives is [0,1].
