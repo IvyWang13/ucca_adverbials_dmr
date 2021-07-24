@@ -9,6 +9,8 @@ exact match= 0.7875
 
 Multilabel Confusion Matrix, Label-based:
 Labels:  ['aspectual', 'condition', 'degree', 'description', 'quantity', 'comparison', 'possibility', 'support', 'negation']  
+For what the coordinates represent see README
+
   [[[61  2]
   [ 3 14]]
 

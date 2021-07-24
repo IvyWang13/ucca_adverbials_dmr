@@ -9,7 +9,8 @@ avg_recall= 0.8323353293413174
 exact match= 0.8023952095808383
 
 Multilabel Confusion Matrix, Label-based:
-Labels:  ['aspectual', 'causal', 'degree', 'description', 'numeric', 'comparison', 'possibility', 'support', 'negation']  
+Labels:  ['aspectual', 'causal', 'degree', 'description', 'numeric', 'comparison', 'possibility', 'support', 'negation'] 
+For coordinate representation please see README 
   [[[136   1]
   [  4  26]]
 
@@ -36,21 +37,6 @@ Labels:  ['aspectual', 'causal', 'degree', 'description', 'numeric', 'comparison
 
  [[147   0]
   [  1  19]]]
-
-Confusion Matrix
-  [[22  0  0  0  1  0  0  0  0  0  2  0  1]
- [ 0  2  0  0  5  0  0  0  0  0  2  0  0]
- [ 0  0  1  0  0  1  0  0  0  0  0  0  0]
- [ 0  0  0 19  5  0  0  0  0  0  1  0  0]
- [ 0  0  0  0 44  3  0  0  0  0  1  0  0]
- [ 0  0  0  0  0  1  0  0  0  0  0  0  0]
- [ 0  0  0  0  2  0  0  0  0  0  0  0  0]
- [ 0  0  0  0  0  0  0 15  0  0  0  0  0]
- [ 0  0  0  0  0  0  0  0  4  0  0  0  0]
- [ 0  0  0  1  0  0  0  0  0  1  0  0  0]
- [ 0  0  0  0  2  0  0  0  0  0 19  0  0]
- [ 0  0  0  0  0  0  0  0  0  0  1  0  0]
- [ 1  0  0  0  4  0  0  0  0  0  0  0  6]]
 By label:
 mcm accuracy -[0.97005988 0.95808383 0.94610778 0.88622754 0.99401198 0.98203593
  0.95209581 0.96407186 0.99401198]
@@ -58,6 +44,21 @@ mcm precision - [0.96296296 1.         0.95       0.73529412 1.         0.5
  0.76923077 0.85714286 1.        ]
 mcm recall -  [0.86666667 0.22222222 0.7037037  0.98039216 0.5        1.
  0.90909091 0.54545455 0.95      ]
+
+Confusion Matrix (by exact match), also see image output
+  [[22  0  0  1  0  0  2  1  0  0  0  0  0]
+ [ 0  2  0  5  0  0  2  0  0  0  0  0  0]
+ [ 0  0 19  5  0  0  1  0  0  0  0  0  0]
+ [ 0  0  0 44  0  0  1  0  0  0  3  0  0]
+ [ 0  0  1  0  1  0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  1  0  0  0  0  1  0  0]
+ [ 0  0  0  2  0  0 19  0  0  0  0  0  0]
+ [ 1  0  0  4  0  0  0  6  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0 15  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  4  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  1  0  0]
+ [ 0  0  0  0  0  0  1  0  0  0  0  0  0]
+ [ 0  0  0  2  0  0  0  0  0  0  0  0  0]]
 
 Classification report
               precision    recall  f1-score   support

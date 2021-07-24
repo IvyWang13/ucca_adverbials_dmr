@@ -1,6 +1,9 @@
 import pandas as pd
-from sklearn.metrics import cohen_kappa_score, multilabel_confusion_matrix, classification_report, precision_recall_fscore_support, confusion_matrix
+from sklearn.metrics import cohen_kappa_score, multilabel_confusion_matrix, classification_report, precision_recall_fscore_support, confusion_matrix, plot_confusion_matrix
 import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+
 
 #first download the input file from annotation sheet (google sheet) and turn into a .csv file
 infile = pd.read_csv('wiki+ewt_anno1.csv')
@@ -109,22 +112,30 @@ outfile.write(f'\nexact match= {exact_match}')
 
 # multilabel confusion matrix
 mcm = multilabel_confusion_matrix(anno2_binary, anno1_binary)
-outfile.write(f"\n\nMultilabel Confusion Matrix, Label-based:\nLabels:  {labels}  \n  {mcm}")
+outfile.write(f"\n\nMultilabel Confusion Matrix, Label-based:\nLabels:  {labels} \nFor coordinate representation please see README \n  {mcm}")
+
 true_negative = mcm[:, 0,0]
 true_positive = mcm[:,1,1]
 false_negative = mcm[:, 1, 0]
 false_positive = mcm[:, 0,1]
+outfile.write(f"\nBy label:\nmcm accuracy -{(true_positive + true_negative) /(true_positive + true_negative + false_negative+false_positive)}")
+outfile.write(f"\nmcm precision - {(true_positive) /(true_positive + false_positive)}")
+outfile.write(f"\nmcm recall -  {(true_positive) /(true_positive + false_negative)}")
+
 
 #standard confusion matrix, treating multiple label as one label
 anno2_index_flat = [''.join(s) for s in anno2]
 anno1_index_flat = [''.join(s) for s in anno1]
 print('confusion matrix input example', anno1_index_flat)
-normal_mcm = confusion_matrix(anno2_index_flat, anno1_index_flat)
-outfile.write(f"\n\nConfusion Matrix (by exact match)\n  {normal_mcm}")
+extended_labels = labels + ['negationaspectual', 'descriptioncomparison', 'possibilitynegation','descriptiondegree']
+normal_mcm = confusion_matrix(anno2_index_flat, anno1_index_flat, labels=extended_labels)
+outfile.write(f"\n\nConfusion Matrix (by exact match), also see image output\n  {normal_mcm}")
 
-outfile.write(f"\nBy label:\nmcm accuracy -{(true_positive + true_negative) /(true_positive + true_negative + false_negative+false_positive)}")
-outfile.write(f"\nmcm precision - {(true_positive) /(true_positive + false_positive)}")
-outfile.write(f"\nmcm recall -  {(true_positive) /(true_positive + false_negative)}")
+#image output
+plt.figure(figsize = (15,15))
+sns.heatmap(normal_mcm, annot=True,  xticklabels=extended_labels, yticklabels=extended_labels)
+# plt.show()
+plt.savefig("wiki+ewt_anno_result.jpg")
 
 clf_report = classification_report(np.array(anno2_binary), np.array(anno1_binary), target_names=labels)
 outfile.write(f"\n\nClassification report\n{clf_report}")

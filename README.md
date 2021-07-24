@@ -25,3 +25,6 @@ USES OF SCRIPTS IN THIS FOLDER
 ## Reading multilabel confusion matrix
 - https://scikit-learn.org/stable/modules/generated/sklearn.metrics.multilabel_confusion_matrix.html
 - In multilabel confusion matrix , the count of true negatives is [0,0], false negatives is [1,0], true positives is [1,1] and false positives is [0,1].
+
+## Reading Exact match confusion matrix
+- see e.g. wiki+ewt_anno_result.jpg
