@@ -1,0 +1,44 @@
+digraph "196219-0006" {
+  top [ style=invis ];
+  top -> 18;
+  0 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">OVERALL</font></td></tr></table>> ];
+  1 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">DECENT</font></td></tr></table>> ];
+  2 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">BUT</font></td></tr></table>> ];
+  3 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">IF</font></td></tr></table>> ];
+  4 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">YOU</font></td></tr></table>> ];
+  5 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">ARE</font></td></tr></table>> ];
+  6 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">EXPECTING</font></td></tr></table>> ];
+  7 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">A</font></td></tr></table>> ];
+  8 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">RUTH</font>,&nbsp;<font face="Courier">CHRIS</font></td></tr></table>> ];
+  9 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">TYPE</font></td></tr></table>> ];
+  10 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">STEAK</font></td></tr></table>> ];
+  11 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">,</font></td></tr></table>> ];
+  12 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">THIS</font></td></tr></table>> ];
+  13 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">IS</font></td></tr></table>> ];
+  14 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">NOT</font></td></tr></table>> ];
+  15 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">IT</font></td></tr></table>> ];
+  16 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">.</font></td></tr></table>> ];
+  17 -> 0 [ label="D" ];
+  17 -> 1 [ label="S" ];
+  18 -> 11 [ label="U" ];
+  18 -> 3 [ label="L" ];
+  18 -> 2 [ label="L" ];
+  18 -> 17 [ label="H" ];
+  18 -> 22 [ label="H" ];
+  18 -> 19 [ label="H" ];
+  19 -> 20 [ label="A" ];
+  19 -> 6 [ label="P" ];
+  19 -> 4 [ label="A" ];
+  19 -> 5 [ label="F" ];
+  20 -> 7 [ label="F" ];
+  20 -> 10 [ label="C" ];
+  20 -> 21 [ label="E" ];
+  21 -> 9 [ label="C" ];
+  21 -> 8 [ label="E" ];
+  22 -> 13 [ label="S" ];
+  22 -> 14 [ label="D" ];
+  22 -> 15 [ label="A" ];
+  22 -> 12 [ label="A" ];
+  22 -> 16 [ label="U" ];
+}
+

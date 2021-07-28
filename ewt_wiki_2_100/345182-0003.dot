@@ -1,0 +1,32 @@
+digraph "345182-0003" {
+  top [ style=invis ];
+  top -> 11;
+  0 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">I</font></td></tr></table>> ];
+  1 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">asked</font></td></tr></table>> ];
+  2 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">if</font></td></tr></table>> ];
+  3 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">they</font></td></tr></table>> ];
+  4 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">could</font></td></tr></table>> ];
+  5 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">copy</font></td></tr></table>> ];
+  6 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">the</font></td></tr></table>> ];
+  7 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">piece</font></td></tr></table>> ];
+  8 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">I</font></td></tr></table>> ];
+  9 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">dropped</font>,&nbsp;<font face="Courier">off</font></td></tr></table>> ];
+  10 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">.</font></td></tr></table>> ];
+  11 -> 12 [ label="H" ];
+  12 -> 1 [ label="P" ];
+  12 -> 0 [ label="A" ];
+  12 -> 13 [ label="A" ];
+  13 -> 4 [ label="D" ];
+  13 -> 5 [ label="P" ];
+  13 -> 14 [ label="A" ];
+  13 -> 2 [ label="R" ];
+  13 -> 3 [ label="A" ];
+  14 -> 7 [ label="C" ];
+  14 -> 6 [ label="F" ];
+  14 -> 15 [ label="E" ];
+  15 -> 7 [ label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="1">A</td></tr><tr><td>remote</td></tr></table>>, style=dashed ];
+  15 -> 10 [ label="U" ];
+  15 -> 8 [ label="A" ];
+  15 -> 9 [ label="P" ];
+}
+

@@ -1,8 +1,9 @@
 import jsonlines
 
 mrp_path = '/Users/ivywang/Downloads/ucca_adverbials/'
-input_file = 'mrp_ucca_no_wsj.mrp'
-out_file = open('mrp_ucca_no_wsj.csv', 'w')
+#the latest mrp processed sentence file .mrp
+input_file = 'mrp_ucca_no_wsj_2.mrp'
+out_file = open('mrp_ucca_no_wsj_2.csv', 'w')
 out_file.write(f'sent_id\tsentence\td-unit\n')
 
 #process jsonline file format
@@ -44,13 +45,13 @@ with jsonlines.open(mrp_path+input_file) as reader:
                     for anchor in target_node['anchors']:
                         # print(sentence[anchor['from'] : anchor['to']])
                         d_unit += sentence[anchor['from'] : anchor['to']]
-                # print(d_unit)
-                # out_file.write(obj['id'])
-                # out_file.write("\t")
-                # out_file.write(sentence)
-                # out_file.write("\t")
-                # out_file.write(d_unit)
-                # out_file.write('\n')
+                print(d_unit)
+                out_file.write(obj['id'])
+                out_file.write("\t")
+                out_file.write(sentence)
+                out_file.write("\t")
+                out_file.write(d_unit)
+                out_file.write('\n')
 
 
 

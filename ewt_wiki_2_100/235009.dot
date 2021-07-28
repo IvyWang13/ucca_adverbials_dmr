@@ -1,0 +1,43 @@
+digraph "235009" {
+  top [ style=invis ];
+  top -> 14;
+  0 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">but</font></td></tr></table>> ];
+  1 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">refrained</font></td></tr></table>> ];
+  2 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">from</font></td></tr></table>> ];
+  3 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">criticising</font></td></tr></table>> ];
+  4 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">the</font></td></tr></table>> ];
+  5 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">Chinese</font></td></tr></table>> ];
+  6 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">government</font></td></tr></table>> ];
+  7 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">for</font></td></tr></table>> ];
+  8 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">banning</font></td></tr></table>> ];
+  9 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">his</font></td></tr></table>> ];
+  10 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">2009</font></td></tr></table>> ];
+  11 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">film</font></td></tr></table>> ];
+  12 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">Shinjuku</font>,&nbsp;<font face="Courier">Incident</font></td></tr></table>> ];
+  13 [ shape=oval, label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="2"><font face="Courier">.</font></td></tr></table>> ];
+  14 -> 15 [ label="H" ];
+  14 -> 0 [ label="L" ];
+  15 -> 2 [ label="R" ];
+  15 -> 1 [ label="D" ];
+  15 -> 3 [ label="P" ];
+  15 -> 17 [ label="A" ];
+  15 -> 16 [ label="A" ];
+  16 -> 5 [ label="E" ];
+  16 -> 4 [ label="F" ];
+  16 -> 6 [ label="C" ];
+  17 -> 19 [ label="A" ];
+  17 -> 7 [ label="R" ];
+  17 -> 16 [ label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="1">A</td></tr><tr><td>remote</td></tr></table>>, style=dashed ];
+  17 -> 8 [ label="P" ];
+  18 -> 9 [ label="S" ];
+  18 -> 12 [ label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="1">A</td></tr><tr><td>remote</td></tr></table>>, style=dashed ];
+  18 -> 9 [ label="A" ];
+  19 -> 20 [ label="E" ];
+  19 -> 11 [ label="E" ];
+  19 -> 13 [ label="U" ];
+  19 -> 12 [ label="C" ];
+  19 -> 18 [ label="E" ];
+  20 -> 10 [ label="T" ];
+  20 -> 12 [ label=<<table align="center" border="0" cellspacing="0"><tr><td colspan="1">A</td></tr><tr><td>remote</td></tr></table>>, style=dashed ];
+}
+
