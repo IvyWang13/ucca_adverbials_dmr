@@ -12,10 +12,10 @@ Input: a file (.csv) containing the annotator's inputs in column "annotation1" a
 
 # first get the input file
 # change the input and output filenames according to dataset
-infile = pd.read_csv('anno_wiki+ewt_anno1.csv')
+infile = pd.read_csv('../data_annotation/anno_wiki+ewt_anno1.csv')
 anno1 = [str(i).lower() for i in infile['annotation1']]
 anno2 = [str(i).lower() for i in infile['annotation2']]
-outfile = open('wiki+ewt_anno1_results.txt', 'w')
+outfile = open('../wiki+ewt_anno1_results.txt', 'w')
 
 # define labels
 labels =['aspectual', 'causal', 'degree',

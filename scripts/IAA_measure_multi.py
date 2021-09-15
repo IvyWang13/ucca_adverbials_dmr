@@ -9,11 +9,11 @@ import krippendorff
 Calculate inter annotator agreement measures for three annotators
 """
 #first download the input file from annotation sheet (google sheet) and turn into a .csv file
-infile = pd.read_csv('anno_ewt_wiki_annotation_3_annotators.csv')
+infile = pd.read_csv('../data_annotation/anno_ewt_wiki_annotation_3_annotators.csv')
 anno1 = [str(i).lower() for i in infile['annotator1']]
 anno2 = [str(i).lower() for i in infile['annotator2']]
 anno3 = [str(i).lower() for i in infile['annotator3']]
-outfile = open('wiki+ewt_anno_master_results.txt', 'w')
+outfile = open('../wiki+ewt_anno_master_results.txt', 'w')
 
 #the category ? is a placeholder for un-annotated instances (those that are FL mistakes or don't fit the guidelines)
 labels =['aspectual', 'causal',

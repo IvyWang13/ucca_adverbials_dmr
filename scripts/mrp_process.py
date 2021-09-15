@@ -3,10 +3,10 @@ import jsonlines
 """
 Process the MRP dataset from mrp format to csv format for annotation
 """
-mrp_path = '/Users/ivywang/Downloads/ucca_adverbials/'
+mrp_path = '//'
 #the latest mrp processed sentence file .mrp
-input_file = 'mrp_ucca_no_wsj_2.mrp'
-out_file = open('data_mrp_ucca_no_wsj_2.csv', 'w')
+input_file = '../data_annotation/mrp_ucca_no_wsj_2.mrp'
+out_file = open('../data_annotation/data_mrp_ucca_no_wsj_2.csv', 'w')
 out_file.write(f'sent_id\tsentence\td-unit\n')
 
 #process jsonline file format
