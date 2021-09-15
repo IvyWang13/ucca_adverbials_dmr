@@ -1,0 +1,123 @@
+sent_id,d-unit,sentence,annotator1,annotator2,annotator3
+592010,not,"Although Depp has not remarried, he has stated that having children has given him ""real foundation, a real strong place to stand in life, in work, in everything.""",Negation,Negation,Negation
+592010,real,"Although Depp has not remarried, he has stated that having children has given him ""real foundation, a real strong place to stand in life, in work, in everything.""",Description,Degree,Possibility
+245160-0001,very,very professional / very helpful,Degree,Degree,Degree
+245160-0001,very,very professional / very helpful,Degree,Degree,Degree
+489000,co,"The following year, Bana co-starred with Daniel Craig and Geoffrey Rush in Steven Spielberg's controversial film Munich.",Description,Description,Description
+468005,could,"The Lakers took a 3-2 lead in the series, but Abdul-Jabbar, who averaged 33 points a game in the series, sprained his ankle in Game 5 and could not play in Game 6.",Possibility,Possibility,Possibility
+468005,not,"The Lakers took a 3-2 lead in the series, but Abdul-Jabbar, who averaged 33 points a game in the series, sprained his ankle in Game 5 and could not play in Game 6.",Negation,Negation,Negation
+729002,also,"She also provided the voice of Master Tigress in the DreamWorks animated movie Kung Fu Panda (2008). With revenue of $632 million internationally, it became the third-highest grossing film of 2008.",Degree,Description,Degree
+729002,highest third -,"She also provided the voice of Master Tigress in the DreamWorks animated movie Kung Fu Panda (2008). With revenue of $632 million internationally, it became the third-highest grossing film of 2008.",Comparison+Degree,Comparison,Comparison
+710004,back,"He was back on the road by midsummer, and performed before Pope John Paul II at the World Eucharistic Conference in Bologna, Italy.",Aspectual,Aspectual,Aspectual
+224906-0006,found,"The only thing I found edible were the potato wedges, I finally gave up, he kept trying - he found the fried wantons to be OK - His Mongolian bowl was awful.",Description,Possibility,?
+224906-0006,found,"The only thing I found edible were the potato wedges, I finally gave up, he kept trying - he found the fried wantons to be OK - His Mongolian bowl was awful.",Possibility,Possibility,?
+224906-0006,kept,"The only thing I found edible were the potato wedges, I finally gave up, he kept trying - he found the fried wantons to be OK - His Mongolian bowl was awful.",Aspectual,Aspectual,Aspectual
+122882-0007,again,I wouldn't go there again.,Aspectual,Aspectual,Aspectual
+122882-0007,n't,I wouldn't go there again.,Negation,Negation,Negation
+122882-0007,would,I wouldn't go there again.,Possibility,Possibility,Possibility
+600004,tended,"The two quickly became friends; McCartney later admitted: ""I tended to talk down to him, because he was a year younger.""",Aspectual,Aspectual,Aspectual
+600004,became,"The two quickly became friends; McCartney later admitted: ""I tended to talk down to him, because he was a year younger.""",Aspectual,Aspectual,Aspectual
+600004,quickly,"The two quickly became friends; McCartney later admitted: ""I tended to talk down to him, because he was a year younger.""",Description,Description,Aspectual
+201972-0005,lot a of,They spent a lot of time with me and got me into a great pair of shoes.,Degree,Degree,Aspectual
+201972-0005,got,They spent a lot of time with me and got me into a great pair of shoes.,Description,Causal,Causal
+611001,newly,"In 2009, he played three sold-out concerts at the newly built Citi Field-a venue constructed to replace Shea Stadium in Queens, New York.",Aspectual,Aspectual,Aspectual
+026883-0002,n't,Run don't walk.,Negation,Negation,Negation
+694011,spurned,"It Ain't Me Babe"", on the surface a song about spurned love, has been described as a rejection of the role his reputation had thrust at him.",Description,Description,Causal
+541009,longstanding,"By 1932, despite his longstanding association with the Republican Party, he openly supported Democratic presidential candidate Franklin D. Roosevelt, staging a ""Motion Picture and Electrical Parade Sports Pageant"" at L.A. Stadium in Roosevelt's honor.",Aspectual,Aspectual,Aspectual
+541009,openly,"By 1932, despite his longstanding association with the Republican Party, he openly supported Democratic presidential candidate Franklin D. Roosevelt, staging a ""Motion Picture and Electrical Parade Sports Pageant"" at L.A. Stadium in Roosevelt's honor.",Description,Description,Description
+345182-0003,could,I asked if they could copy the piece I dropped off.,Possibility,Possibility,Possibility
+170650-0006,nearly,"At the front door of his office, I nearly turned around.",Degree,Degree,Possibility
+342807-0005,haveto,"All you have to do to make it authentic Jamaican food, is add a whole lot of pepper.",Possibility,Possibility,Possibility
+024385-0003,n't,"A bit pricey, so I didn't go very often, but it was always a treat when I did.",Negation,Negation,Negation
+024385-0003,Abit,"A bit pricey, so I didn't go very often, but it was always a treat when I did.",Degree,Degree,Degree
+121342-0008,completely,"Everything was bland, completely void of any spice or flavor.",Degree,Degree,Degree
+196219-0006,OVERALL,"OVERALL DECENT BUT IF YOU ARE EXPECTING A RUTH CHRIS TYPE STEAK, THIS IS NOT IT.",Degree,Degree,Degree
+196219-0006,NOT,"OVERALL DECENT BUT IF YOU ARE EXPECTING A RUTH CHRIS TYPE STEAK, THIS IS NOT IT.",Negation,Negation,Negation
+474002,returning,"He insisted that his health was not an issue, while downplaying questions about returning as a player, saying, ""I'm retired. Let's leave it at that.""",Description,Aspectual,Aspectual
+474002,not,"He insisted that his health was not an issue, while downplaying questions about returning as a player, saying, ""I'm retired. Let's leave it at that.""",Negation,Negation,Negation
+018465-0019,pretty,I'm pretty sure for the cast that it was the other way around.,Degree,Degree,Degree
+149741-0002,a lot,If you watch a lot of fights (youtube) and research some of the history (http://en.wikipedia.org/wiki/Bullfighting) you will find yourself enjoying it a lot more!,Degree,Aspectual,Aspectual
+149741-0002,! a more,If you watch a lot of fights (youtube) and research some of the history (http://en.wikipedia.org/wiki/Bullfighting) you will find yourself enjoying it a lot more!,Comparison+Degree,Comparison,Comparison+Degree
+149741-0002,findyourself,If you watch a lot of fights (youtube) and research some of the history (http://en.wikipedia.org/wiki/Bullfighting) you will find yourself enjoying it a lot more!,Description,Possibility,?
+165143-0002,so,"First, let me state that although I live in NYC, I am not from NYC, I don't care about baseball and I absolutely love Boston to death (so beautiful, so clean, so awesome).",Degree,Degree,Degree
+165143-0002,so,"First, let me state that although I live in NYC, I am not from NYC, I don't care about baseball and I absolutely love Boston to death (so beautiful, so clean, so awesome).",Degree,Degree,Degree
+165143-0002,so,"First, let me state that although I live in NYC, I am not from NYC, I don't care about baseball and I absolutely love Boston to death (so beautiful, so clean, so awesome).",Degree,Degree,Degree
+165143-0002,not,"First, let me state that although I live in NYC, I am not from NYC, I don't care about baseball and I absolutely love Boston to death (so beautiful, so clean, so awesome).",Negation,Negation,Negation
+165143-0002,todeath,"First, let me state that although I live in NYC, I am not from NYC, I don't care about baseball and I absolutely love Boston to death (so beautiful, so clean, so awesome).",Degree,Degree,Degree
+165143-0002,absolutely,"First, let me state that although I live in NYC, I am not from NYC, I don't care about baseball and I absolutely love Boston to death (so beautiful, so clean, so awesome).",Degree,Degree,Degree
+165143-0002,let,"First, let me state that although I live in NYC, I am not from NYC, I don't care about baseball and I absolutely love Boston to death (so beautiful, so clean, so awesome).",Causal,Causal,Causal
+165143-0002,n't,"First, let me state that although I live in NYC, I am not from NYC, I don't care about baseball and I absolutely love Boston to death (so beautiful, so clean, so awesome).",Negation,Negation,Negation
+527007,failed,"She again failed to report to the set on multiple occasions, and the studio suspended her contract on June 17, 1950.",Possibility,Possibility,Possibility
+527007,again,"She again failed to report to the set on multiple occasions, and the studio suspended her contract on June 17, 1950.",Aspectual,Aspectual,Aspectual
+527007,occasions on multiple,"She again failed to report to the set on multiple occasions, and the studio suspended her contract on June 17, 1950.",Aspectual,Aspectual,Aspectual
+197010,eventually,"The Farnsworth Invention eventually opened at the Music Box Theatre on December 3, 2007 following the end of the strike; it closed on March 2, 2008.",Aspectual,Aspectual,Aspectual
+197010,end the,"The Farnsworth Invention eventually opened at the Music Box Theatre on December 3, 2007 following the end of the strike; it closed on March 2, 2008.",Aspectual,Aspectual,Aspectual
+156460-0003,can,I cannot tell you how often I am complimented on my hair (style AND color)!,Possibility,Possibility,Possibility
+156460-0003,not,I cannot tell you how often I am complimented on my hair (style AND color)!,Negation,Negation,Negation
+317594-0001,Great,Great Dude Cut!,Description,Description,Description
+487010,Best,Bana's performance won the Australian Film Institute Award for Best Actor.,Description+Comparison,Description+Comparison,Comparison
+363685-0031,n't,Don't get the rooms off the two kitchens.,Negation,Negation,Negation
+206007,first,"His first critical success was in Eh? by Henry Livings, which had its US premiere at the Circle in the Square Downtown on October 16, 1966.",Aspectual,Aspectual,Aspectual
+206007,critical,"His first critical success was in Eh? by Henry Livings, which had its US premiere at the Circle in the Square Downtown on October 16, 1966.",Description,Degree,Description
+004540-0004,100 %,They have been 100% reliable and professional.,Degree,Degree,Degree
+004540-0004,100 %,They have been 100% reliable and professional.,Degree,Degree,Degree
+191666-0002,n't,"I wish there was something good to say about the business, but unfortunately, there isn't.",Negation,Negation,Negation
+191666-0002,good,"I wish there was something good to say about the business, but unfortunately, there isn't.",Description,Description,Description
+194316-0004,so,"My waiter was so excellent I gave him a 75% tip, and it was worht every penny..",Degree,Degree,Degree
+505002,included,"The album's hard rock edge included conspicuous guitar contributions from Robert Fripp, Pete Townshend, Chuck Hammer and Tom Verlaine.",Description,Description,?
+505002,conspicuous,"The album's hard rock edge included conspicuous guitar contributions from Robert Fripp, Pete Townshend, Chuck Hammer and Tom Verlaine.",Description,Description,Description
+121556-0006,great,She did a great job!,Description,Description,Description
+120335-0006,keep,"So don't get taken in, keep your eyes open if you choose to shop here.",Aspectual,Aspectual+Causal,Aspectual+Causal
+120335-0006,n't,"So don't get taken in, keep your eyes open if you choose to shop here.",Negation,Negation,Negation
+319816-0002,happily,"After happily visiting Sear's Automotives in the past, I was shocked at the horrible service received at their Greensboro location.",Description,Description,Description
+319816-0002,horrible,"After happily visiting Sear's Automotives in the past, I was shocked at the horrible service received at their Greensboro location.",Description,Description,Description
+319816-0002,received,"After happily visiting Sear's Automotives in the past, I was shocked at the horrible service received at their Greensboro location.",Description,Description,Description
+361348-0002,hasto,This has to be some of the worst pizza I have ever had the misfortune of ordering.,Possibility,Possibility,Possibility
+192713-0001,ever,The finest Christmas Trees i've ever seen.,Aspectual,Aspectual,Aspectual
+192001,continuous,"He would work late, with the TV tuned into ESPN, watching continuous replays of SportsCenter.",Aspectual,Aspectual,Aspectual
+616014,usedto,"McCartney said, ""I've been offered an exhibition of my paintings at the Walker Art Gallery ... where John and I used to spend many a pleasant afternoon. So I'm really excited about it. I didn't tell anybody I painted for 15 years but now I'm out of the closet"". McCartney is lead patron of the Liverpool Institute for Performing Arts, a school in the building formerly occupied by the Liverpool Institute for Boys.",Aspectual,Aspectual,Aspectual
+616014,lead,"McCartney said, ""I've been offered an exhibition of my paintings at the Walker Art Gallery ... where John and I used to spend many a pleasant afternoon. So I'm really excited about it. I didn't tell anybody I painted for 15 years but now I'm out of the closet"". McCartney is lead patron of the Liverpool Institute for Performing Arts, a school in the building formerly occupied by the Liverpool Institute for Boys.",Description,Description,?
+616014,n't,"McCartney said, ""I've been offered an exhibition of my paintings at the Walker Art Gallery ... where John and I used to spend many a pleasant afternoon. So I'm really excited about it. I didn't tell anybody I painted for 15 years but now I'm out of the closet"". McCartney is lead patron of the Liverpool Institute for Performing Arts, a school in the building formerly occupied by the Liverpool Institute for Boys.",Negation,Negation,Negation
+616014,really,"McCartney said, ""I've been offered an exhibition of my paintings at the Walker Art Gallery ... where John and I used to spend many a pleasant afternoon. So I'm really excited about it. I didn't tell anybody I painted for 15 years but now I'm out of the closet"". McCartney is lead patron of the Liverpool Institute for Performing Arts, a school in the building formerly occupied by the Liverpool Institute for Boys.",Degree,Degree,Degree
+126002,very,"He particularly liked the manner in which she picked up a glass: ""I thought she was very talented in that action.""",Degree,Degree,Degree
+126002,particularly,"He particularly liked the manner in which she picked up a glass: ""I thought she was very talented in that action.""",Degree,Degree,Degree
+514005,very well,"In a September 1976 interview with Playboy, Bowie said: ""It's true-I am a bisexual. But I can't deny that I've used that fact very well. I suppose it's the best thing that ever happened to me.""",Description+Degree,Description+Degree,Description
+514005,n't,"In a September 1976 interview with Playboy, Bowie said: ""It's true-I am a bisexual. But I can't deny that I've used that fact very well. I suppose it's the best thing that ever happened to me.""",Negation,Negation,Negation
+514005,ca,"In a September 1976 interview with Playboy, Bowie said: ""It's true-I am a bisexual. But I can't deny that I've used that fact very well. I suppose it's the best thing that ever happened to me.""",Possibility,Possibility,Possibility
+529001,not,"She could not attend the ceremony because she had just given birth to her son, Joseph Luft, so a television crew was in her hospital room with cameras and wires to televise her anticipated acceptance speech.",Negation,Negation,Negation
+529001,could,"She could not attend the ceremony because she had just given birth to her son, Joseph Luft, so a television crew was in her hospital room with cameras and wires to televise her anticipated acceptance speech.",Possibility,Possibility,Possibility
+366586-0004,quite,Our server was quite attentive and the food was fantastic.,Degree,Degree,Degree
+071650-0009,haveto,I was able to cancel it but only after paying a $50 fee (which the staff person who signed me up stated I would not have to pay if I had proof of moving) and being spoken to in a very belittling manner.,Possibility,Possibility,Possibility
+071650-0009,belittling very,I was able to cancel it but only after paying a $50 fee (which the staff person who signed me up stated I would not have to pay if I had proof of moving) and being spoken to in a very belittling manner.,Description+Degree,Description,Description
+071650-0009,able,I was able to cancel it but only after paying a $50 fee (which the staff person who signed me up stated I would not have to pay if I had proof of moving) and being spoken to in a very belittling manner.,Possibility,Possibility,Possibility
+071650-0009,would,I was able to cancel it but only after paying a $50 fee (which the staff person who signed me up stated I would not have to pay if I had proof of moving) and being spoken to in a very belittling manner.,Possibility,Possibility,Possibility
+071650-0009,not,I was able to cancel it but only after paying a $50 fee (which the staff person who signed me up stated I would not have to pay if I had proof of moving) and being spoken to in a very belittling manner.,Negation,Negation,Negation
+127002,grating,"Regina Crewe wrote in the Journal American that although her mannerisms were grating, ""they compel attention, and they fascinate an audience. She is a distinct, definite, positive personality.""",Description,Description,Description
+696004,only,"This account is supported by Kooper and one of the directors of the festival, who reports his audio recording of the concert proves that the only boos were in reaction to the emcee's announcement that there was only enough time for a short set.",Degree,Degree,Degree
+696004,one,"This account is supported by Kooper and one of the directors of the festival, who reports his audio recording of the concert proves that the only boos were in reaction to the emcee's announcement that there was only enough time for a short set.",?,?,?
+696004,enough only time,"This account is supported by Kooper and one of the directors of the festival, who reports his audio recording of the concert proves that the only boos were in reaction to the emcee's announcement that there was only enough time for a short set.",Description+Degree,Aspectual,?
+377347-0011,like something,"By the way, Salmagundi (the store name) means something like smorgasbord; potpourri; motley; variety; mixed bag; miscellaneous assortment; mixture, a variety of many kinds of things.",Comparison,Comparison,Degree
+071650-0007,poor,Back to my poor rating - I was excepted to medical school and went in to cancel my membership as I was told I could do since I was moving away.,Description,Description,Description
+071650-0007,away,Back to my poor rating - I was excepted to medical school and went in to cancel my membership as I was told I could do since I was moving away.,Description,Description,Description
+071650-0007,Back,Back to my poor rating - I was excepted to medical school and went in to cancel my membership as I was told I could do since I was moving away.,Description,?,?
+071650-0007,could,Back to my poor rating - I was excepted to medical school and went in to cancel my membership as I was told I could do since I was moving away.,Possibility,Possibility,Possibility
+730005,honorary,Sarajevo's regional government named Jolie an honorary citizen of the capital for raising awareness of the war.,Description,Description,?
+730005,raising,Sarajevo's regional government named Jolie an honorary citizen of the capital for raising awareness of the war.,Aspectual,Causal,Causal
+147014,too,"Hughes wished to marry her, and the tabloids reported their impending nuptials, but at that time Hepburn was too focused on resurrecting her failing career.",Degree,Degree,Degree
+147014,failing,"Hughes wished to marry her, and the tabloids reported their impending nuptials, but at that time Hepburn was too focused on resurrecting her failing career.",Possibility,Description,Aspectual
+459012,primary,"On January 5, Jennings moderated the Democratic primary debate, held at the University of New Hampshire.",Description,Description,?
+030126-0006,at horrible,"The education is horrible at best, do society a favor, and do NOT send your student here.",Description,Description,Description
+030126-0006,NOT,"The education is horrible at best, do society a favor, and do NOT send your student here.",Negation,Negation,Negation
+351058-0006,should,"in my opinon this place should be shut down by the health inspector, and anyone who is satisfied with there service and food has never eaten at a real asian restaurant.",Possibility,Possibility,Possibility
+127008,one,"Little Women was one of Hepburn's personal favorites and she was proud of her performance, later saying, ""I defy anyone to be as good as I was [as Jo]"".",Description,Aspectual,?
+127008,personal,"Little Women was one of Hepburn's personal favorites and she was proud of her performance, later saying, ""I defy anyone to be as good as I was [as Jo]"".",Description,Description,Description
+235009,refrained,but refrained from criticising the Chinese government for banning his 2009 film Shinjuku Incident.,Description,Causal,Causal
+107692-0007,better,I have gotten better results talking to COMCAST customer service than with these folks.,Description+Comparison,Description+Comparison,Description+Comparison
+727001,precipitously,"The film was a major critical failure, with The New York Times noting, ""The story plunges more precipitously than Ms. Jolie's neckline.""",Description,Description,Description
+727001,major,"The film was a major critical failure, with The New York Times noting, ""The story plunges more precipitously than Ms. Jolie's neckline.""",Description,Degree,Degree
+727001,more precipitously,"The film was a major critical failure, with The New York Times noting, ""The story plunges more precipitously than Ms. Jolie's neckline.""",Description+Comparison,Description+Comparison,Description+Comparison
+28009,two,"Pitt made two motion picture appearances in 1989: the first in a supporting role in the comedy Happy Together; the second a featured role in the horror film Cutting Class, the first of Pitt's films to reach theaters.",Aspectual,Aspectual,Aspectual
+010378-0006,more,I think he could've done more to assuage my concerns by giving me concrete facts.,Comparison,Comparison,Comparison
+010378-0006,concrete,I think he could've done more to assuage my concerns by giving me concrete facts.,Description,Description,Description
+010378-0006,could,I think he could've done more to assuage my concerns by giving me concrete facts.,Possibility,Possibility,Possibility
+217359-0003,n't,"if you don't mind being robbed ,cheated or lied to then this is the company for you .",Negation,Negation,Negation

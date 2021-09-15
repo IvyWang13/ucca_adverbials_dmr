@@ -1,6 +1,10 @@
 import jsonlines
 import random
 
+"""
+Filter the WSJ data out of the MRP data and randomly select 100 sentences from the remainder
+"""
+#change this path accordingly
 mrp_path = '/Users/ivywang/Downloads/ucca_adverbials/mrp/2020/cf/training/'
 input_file = 'ucca.mrp'
 out_file = open('mrp_ucca_no_wsj_2.mrp', 'w')

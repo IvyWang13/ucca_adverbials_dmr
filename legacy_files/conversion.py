@@ -76,12 +76,12 @@ def get_top_level(text):
 # out_file = open('D_categories.csv', 'a')
 # config_out_file = open('D_configurations.csv', 'a')
 # out_file.write(f'passge_id\tnode_id\tnumChildren\tedge_tag\tedge_id\tedge\tcomposite\tsimple_adverb\tnegation\tmodal_aux\tword_count\tadjective\tdiscontinuous\n')
-infile = pd.read_csv('Copy_UCCA-adverbials - D_categories_en.csv')
+infile = pd.read_csv('../Copy_UCCA-adverbials - D_categories_en.csv')
 # node_id_list = [str(i) for i in infile['node_id']]
 # node_id_list = [i[:5] if len(i)>5 else i for i in node_id_list]
 # print(node_id_list)
 # infile['node_id'] = node_id_list
-plain_text_col = open('plain_text_column.csv','w')
+plain_text_col = open('../plain_text_column.csv', 'w')
 totald_in_psg = 0
 for i in range(1, 3, 1):
     # change the following to the desired passage folder

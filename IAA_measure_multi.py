@@ -3,48 +3,68 @@ from sklearn.metrics import cohen_kappa_score, multilabel_confusion_matrix, clas
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
+import krippendorff
 
 """
-Calculate inter-annotator agreement between two annotators.
-Output file is in *_results.txt
-Input: a file (.csv) containing the annotator's inputs in column "annotation1" and "annotation2"
+Calculate inter annotator agreement measures for three annotators
 """
+#first download the input file from annotation sheet (google sheet) and turn into a .csv file
+infile = pd.read_csv('anno_ewt_wiki_annotation_3_annotators.csv')
+anno1 = [str(i).lower() for i in infile['annotator1']]
+anno2 = [str(i).lower() for i in infile['annotator2']]
+anno3 = [str(i).lower() for i in infile['annotator3']]
+outfile = open('wiki+ewt_anno_master_results.txt', 'w')
 
-# first get the input file
-# change the input and output filenames according to dataset
-infile = pd.read_csv('anno_wiki+ewt_anno1.csv')
-anno1 = [str(i).lower() for i in infile['annotation1']]
-anno2 = [str(i).lower() for i in infile['annotation2']]
-outfile = open('wiki+ewt_anno1_results.txt', 'w')
+#the category ? is a placeholder for un-annotated instances (those that are FL mistakes or don't fit the guidelines)
+labels =['aspectual', 'causal',
+         'degree', 'description',
+        'comparison', 'possibility', 'negation', '?']
+extended_labels = labels + ['descriptioncomparison',
+                        'descriptiondegree', 'aspectualcausal', 'comparisondegree']
 
-# define labels
-labels =['aspectual', 'causal', 'degree',
-                      'description',
-                      'comparison', 'possibility', 'negation']
-
-# extended labels are for exact match measures, where multi-label is not accounted for.
-# So we basically convert a combination of labels into one label
-extended_labels = labels + ['negationaspectual', 'descriptioncomparison', 'possibilitynegation','descriptiondegree']
-
-
-"""
-Cohen's Kappa
-"""
-# cohen's kappa treating as exact match, no multilabel added, use extended_labels as laebls
+# cohen's kappa treating as exact match, no multilabel
 ck_general = cohen_kappa_score(anno1, anno2, labels=extended_labels)
-outfile.write(f"Cohen's Kappa treating as exact match, no multi-label: {ck_general}\n")
+outfile.write(f"Cohen's Kappa 1-2: treating as exact match, no multi-label: {ck_general}\n")
+outfile.write(f"Cohen's Kappa 1-3: treating as exact match, no multi-label: {cohen_kappa_score(anno1, anno3, labels=extended_labels)}\n")
+outfile.write(f"Cohen's Kappa 2-3: treating as exact match, no multi-label: {cohen_kappa_score(anno2, anno3, labels=extended_labels)}\n")
+
+
 print(f"Cohen's Kappa treating as exact match, no multi-label: {ck_general}\n")
 
-# Make into list of list, for multi-label data
+#make into list of list, for multilabel data
 anno1 = [[item.strip() for item in a.split('+')] for a in anno1]
 anno2 = [[item.strip() for item in a.split('+')] for a in anno2]
+anno3 = [[item.strip() for item in a.split('+')] for a in anno3]
+
 print(anno1)
 print(anno2)
+print(anno3)
+print(len(anno1))
+same_subcat, overlapping_subcat = 0, 0
+diff_subcats, one_na, both_na =  0, 0, 0
+total = 0
 
-# Calculate Cohen's kappa on a per-category basis
+# raw counts for categories
+for i in range(len(anno1)):
+    if set(anno2[i]) == set(anno3[i]) and len(set(anno2[i])) ==1 and len(set(anno3[i])) ==1 and anno2[i][0] == '?':
+        both_na += 1
+    elif set(anno2[i]) != set(anno3[i]) and (anno2[i][0] == '?' or anno3[i][0] == '?'):
+        one_na += 1
+    elif set(anno2[i]) == set(anno3[i]):
+        same_subcat += 1
+    elif len(set(anno2[i]) & set(anno3[i]))  ==0:
+        diff_subcats += 1
+    else:
+        overlapping_subcat += 1
+
+print(f'same subcat: {same_subcat}, diff_subcats: {diff_subcats}, overlapping subcat {overlapping_subcat}, one_na {one_na}, bothna {both_na}')
+
+#calculate cohen's kappa on a per-category basis
 to_dict = lambda x: {k: [1 if k in y else 0 for y in x] for k in labels}
+#dict is with key=label_name, value=binary array of instances labeled with key
 anno1_dict = to_dict(anno1)
 anno2_dict = to_dict(anno2)
+anno3_dict = to_dict(anno3)
 print(anno1_dict)
 cohen_dict = {k: cohen_kappa_score(anno1_dict[k], anno2_dict[k]) for k in labels}
 cohen_avg = np.mean(list(cohen_dict.values()))
@@ -54,11 +74,13 @@ print(cohen_avg)
 outfile.write(f"Cohen's Kappa for each category: {cohen_dict}\n")
 outfile.write(f"Cohen's Kappa averaged across categories: {cohen_avg} \n")
 
+# krippendorff
+k_alpha_dict = {k: krippendorff.alpha([anno1_dict[k], anno2_dict[k], anno3_dict[k]]) for k in labels}
+print(k_alpha_dict)
+k_alpha_avg = np.mean(list(k_alpha_dict.values()))
+print(f'k_alpha_avg: {k_alpha_avg}\n')
 
-"""
-Partial Accuracy
-"""
-#calculate partially correctness via accuracy, treating annotation2 as the gold standard
+#calculate partially correct via accuracy, treating annotation2 as the gold standard
 #binarize the examples
 outfile.write("\n--------partial correct examples via accuracy, treating #2 as the gold----")
 anno1_binary=[[0] * len(labels) for _ in range(len(anno1))]
@@ -100,10 +122,7 @@ avg_prec *= prec_sum
 avg_recall *= recall_sum
 outfile.write(f'\nPartial: avg_accuracy={avg_accuracy} \navg_prec=, {avg_prec}\navg_recall= {avg_recall}')
 
-"""
-Exact Match
-"""
-# Exact match calculation
+#exact match calculation no frequency
 corrects = 0
 for i , example in enumerate(anno1_index):
     if set(example) == set(anno2_index[i]):
@@ -112,9 +131,7 @@ exact_match = corrects/len(anno1_index)
 outfile.write(f'\nexact match= {exact_match}')
 
 
-""" 
-Multilabel confusion matrix
-"""
+# multilabel confusion matrix
 mcm = multilabel_confusion_matrix(anno2_binary, anno1_binary)
 outfile.write(f"\n\nMultilabel Confusion Matrix, Label-based:\nLabels:  {labels} \nFor coordinate representation please see README \n  {mcm}")
 
@@ -127,9 +144,7 @@ outfile.write(f"\nmcm precision - {(true_positive) /(true_positive + false_posit
 outfile.write(f"\nmcm recall -  {(true_positive) /(true_positive + false_negative)}")
 
 
-"""
-Standard confusion matrix, treating multiple label as one label
-"""
+#standard confusion matrix, treating multiple label as one label
 anno2_index_flat = [''.join(s) for s in anno2]
 anno1_index_flat = [''.join(s) for s in anno1]
 print('confusion matrix input example', anno1_index_flat)

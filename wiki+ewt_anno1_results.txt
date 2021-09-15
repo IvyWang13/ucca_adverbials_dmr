@@ -1,79 +1,69 @@
-Cohen's Kappa treating as exact match, no multi-label: 0.7915589117616634
-Cohen's Kappa for each category: {'aspectual': 0.8942904165084188, 'causal': 0.35091615769017204, 'degree': 0.7779583394888462, 'description': 0.754734482492077, 'numeric': 0.663983903420523, 'comparison': 0.6584867075664622, 'possibility': 0.8055878928987195, 'support': 0.6486676016830295, 'negation': 0.9709716669563706}
-Cohen's Kappa averaged across categories: 0.725066352078291 
+Cohen's Kappa treating as exact match, no multi-label: 0.7968239915896641
+Cohen's Kappa for each category: {'aspectual': 0.8454061559824115, 'causal': 0.3197556008146639, 'degree': 0.8058703865155479, 'description': 0.7620547431571054, 'comparison': 0.6584867075664622, 'possibility': 0.7848862172606269, 'negation': 0.9709716669563706}
+Cohen's Kappa averaged across categories: 0.7353473540361698 
 
 --------partial correct examples via accuracy, treating #2 as the gold----
-Partial: avg_accuracy=0.8233532934131736 
-avg_prec=, 0.8353293413173654
+Partial: avg_accuracy=0.8263473053892216 
+avg_prec=, 0.8383233532934132
 avg_recall= 0.8323353293413174
-exact match= 0.8023952095808383
+exact match= 0.8083832335329342
 
 Multilabel Confusion Matrix, Label-based:
-Labels:  ['aspectual', 'causal', 'degree', 'description', 'numeric', 'comparison', 'possibility', 'support', 'negation'] 
+Labels:  ['aspectual', 'causal', 'degree', 'description', 'comparison', 'possibility', 'negation'] 
 For coordinate representation please see README 
-  [[[136   1]
-  [  4  26]]
+  [[[131   3]
+  [  5  28]]
 
- [[158   0]
-  [  7   2]]
+ [[157   0]
+  [  8   2]]
 
  [[139   1]
-  [  8  19]]
+  [  7  20]]
 
- [[ 98  18]
-  [  1  50]]
-
- [[165   0]
-  [  1   1]]
+ [[ 93  17]
+  [  2  55]]
 
  [[161   3]
   [  0   3]]
 
- [[139   6]
-  [  2  20]]
+ [[138   6]
+  [  3  20]]
 
- [[155   1]
-  [  5   6]]
-
- [[147   0]
-  [  1  19]]]
+ [[145   0]
+  [  3  19]]]
 By label:
-mcm accuracy -[0.97005988 0.95808383 0.94610778 0.88622754 0.99401198 0.98203593
- 0.95209581 0.96407186 0.99401198]
-mcm precision - [0.96296296 1.         0.95       0.73529412 1.         0.5
- 0.76923077 0.85714286 1.        ]
-mcm recall -  [0.86666667 0.22222222 0.7037037  0.98039216 0.5        1.
- 0.90909091 0.54545455 0.95      ]
+mcm accuracy -[0.95209581 0.95209581 0.95209581 0.88622754 0.98203593 0.94610778
+ 0.98203593]
+mcm precision - [0.90322581 1.         0.95238095 0.76388889 0.5        0.76923077
+ 1.        ]
+mcm recall -  [0.84848485 0.2        0.74074074 0.96491228 1.         0.86956522
+ 0.86363636]
 
 Confusion Matrix (by exact match), also see image output
-  [[22  0  0  1  0  0  2  1  0  0  0  0  0]
- [ 0  2  0  5  0  0  2  0  0  0  0  0  0]
- [ 0  0 19  5  0  0  1  0  0  0  0  0  0]
- [ 0  0  0 44  0  0  1  0  0  0  3  0  0]
- [ 0  0  1  0  1  0  0  0  0  0  0  0  0]
- [ 0  0  0  0  0  1  0  0  0  0  1  0  0]
- [ 0  0  0  2  0  0 19  0  0  0  0  0  0]
- [ 1  0  0  4  0  0  0  6  0  0  0  0  0]
- [ 0  0  0  0  0  0  0  0 15  0  0  0  0]
- [ 0  0  0  0  0  0  0  0  0  4  0  0  0]
- [ 0  0  0  0  0  0  0  0  0  0  1  0  0]
- [ 0  0  0  0  0  0  1  0  0  0  0  0  0]
- [ 0  0  0  2  0  0  0  0  0  0  0  0  0]]
+  [[24  0  1  2  0  2  0  0  0  0  0]
+ [ 0  2  0  6  0  2  0  0  0  0  0]
+ [ 0  0 19  5  0  1  0  0  0  0  0]
+ [ 1  0  0 49  0  1  0  0  3  0  0]
+ [ 0  0  0  0  1  0  0  0  1  0  0]
+ [ 0  0  0  3  0 19  0  0  0  0  0]
+ [ 0  0  0  0  0  0 15  0  0  0  0]
+ [ 0  0  0  0  0  0  0  4  0  0  0]
+ [ 0  0  0  0  0  0  0  0  1  0  0]
+ [ 0  0  0  0  0  1  0  0  0  0  0]
+ [ 0  0  0  1  0  0  0  0  0  0  1]]
 
 Classification report
               precision    recall  f1-score   support
 
-   aspectual       0.96      0.87      0.91        30
-      causal       1.00      0.22      0.36         9
-      degree       0.95      0.70      0.81        27
- description       0.74      0.98      0.84        51
-     numeric       1.00      0.50      0.67         2
+   aspectual       0.90      0.85      0.88        33
+      causal       1.00      0.20      0.33        10
+      degree       0.95      0.74      0.83        27
+ description       0.76      0.96      0.85        57
   comparison       0.50      1.00      0.67         3
- possibility       0.77      0.91      0.83        22
-     support       0.86      0.55      0.67        11
-    negation       1.00      0.95      0.97        20
+ possibility       0.77      0.87      0.82        23
+    negation       1.00      0.86      0.93        22
 
-   micro avg       0.83      0.83      0.83       175
-   macro avg       0.86      0.74      0.75       175
-weighted avg       0.86      0.83      0.82       175
+   micro avg       0.83      0.84      0.84       175
+   macro avg       0.84      0.78      0.76       175
+weighted avg       0.86      0.84      0.83       175
  samples avg       0.83      0.84      0.83       175
